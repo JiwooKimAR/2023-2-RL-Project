@@ -268,7 +268,7 @@ def parse_args():
     parser.add_argument('--seed', type=int, default=1, help='random seed')
 
     # GPT-3 settings
-    parser.add_argument('--engine', type=str, default='text-davinci-002', choices=['text-davinci-002', 'ada'])
+    parser.add_argument('--engine', type=str, default='gpt-3.5-turbo-instruct', choices=['text-davinci-002', 'ada', 'gpt-3.5-turbo-instruct'])
     parser.add_argument('--temperature', type=float, default=0.0)
     parser.add_argument('--max_tokens',
                         type=int,
