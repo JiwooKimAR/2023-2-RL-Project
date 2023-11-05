@@ -1,0 +1,3289 @@
+{
+    "5539": {
+        "question": "Each bag has 5 yellow buttons. How many yellow buttons are in 3 bags?",
+        "choices": null,
+        "answer": "15",
+        "unit": "yellow buttons",
+        "table_title": null,
+        "table": "Number of bags | Number of yellow buttons\n1 | 5\n2 | 10\n3 | ?",
+        "table_for_pd": {
+            "Number of bags": [
+                "1",
+                "2",
+                "3"
+            ],
+            "Number of yellow buttons": [
+                "5",
+                "10",
+                "?"
+            ]
+        },
+        "row_num": 4,
+        "column_num": 2,
+        "solution": "Count by fives. Use the chart: there are 15 yellow buttons in 3 bags.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 1,
+        "split": "test"
+    },
+    "26279": {
+        "question": "Each platter has 2 chocolate-chip cookies. How many chocolate-chip cookies are on 3 platters?",
+        "choices": null,
+        "answer": "6",
+        "unit": null,
+        "table_title": null,
+        "table": "Number of platters | Number of chocolate-chip cookies\n1 | 2\n2 | 4\n3 | ?",
+        "table_for_pd": {
+            "Number of platters": [
+                "1",
+                "2",
+                "3"
+            ],
+            "Number of chocolate-chip cookies": [
+                "2",
+                "4",
+                "?"
+            ]
+        },
+        "row_num": 4,
+        "column_num": 2,
+        "solution": "Count by twos. Use the chart: there are 6 chocolate-chip cookies on 3 platters.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 2,
+        "split": "test"
+    },
+    "33078": {
+        "question": "How much more does a crane cost than a hydrofoil?",
+        "choices": null,
+        "answer": "522",
+        "unit": "$",
+        "table_title": null,
+        "table": "bulldozer | $7,552.00\ncrane | $8,867.00\nrace car | $8,769.00\nhydrofoil | $8,345.00",
+        "table_for_pd": {
+            "Column 1": [
+                "bulldozer",
+                "crane",
+                "race car",
+                "hydrofoil"
+            ],
+            "Column 2": [
+                "$7,552.00",
+                "$8,867.00",
+                "$8,769.00",
+                "$8,345.00"
+            ]
+        },
+        "row_num": 4,
+        "column_num": 2,
+        "solution": "Subtract the price of a hydrofoil from the price of a crane.\n\n$8,867.00 - $8,345.00 = $522.00\n\nA crane costs $522.00 more than a hydrofoil.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 8,
+        "split": "test"
+    },
+    "7367": {
+        "question": "Henry buys 0.9 pounds of chicken sauce. How much does he spend?",
+        "choices": null,
+        "answer": "2.70",
+        "unit": "$",
+        "table_title": null,
+        "table": "alfredo sauce | $6/pound\ntomato sauce | $7/pound\nbeef sauce | $4/pound\nchicken sauce | $3/pound",
+        "table_for_pd": {
+            "Column 1": [
+                "alfredo sauce",
+                "tomato sauce",
+                "beef sauce",
+                "chicken sauce"
+            ],
+            "Column 2": [
+                "$6/pound",
+                "$7/pound",
+                "$4/pound",
+                "$3/pound"
+            ]
+        },
+        "row_num": 4,
+        "column_num": 2,
+        "solution": "Find the cost of the chicken sauce. Multiply the price per pound by the number of pounds.\n$3 × 0.9 = $2.70\nHe spends $2.70.",
+        "ques_type": "free_text",
+        "ans_type": "decimal_number",
+        "grade": 6,
+        "split": "test"
+    },
+    "6918": {
+        "question": "Look at this table. Is this relation a function?",
+        "choices": [
+            "yes",
+            "no"
+        ],
+        "answer": "yes",
+        "unit": null,
+        "table_title": null,
+        "table": "x | y\n19 | 19\n8 | 6\n10 | 5",
+        "table_for_pd": {
+            "x": [
+                "19",
+                "8",
+                "10"
+            ],
+            "y": [
+                "19",
+                "6",
+                "5"
+            ]
+        },
+        "row_num": 4,
+        "column_num": 2,
+        "solution": "Look at the x-values in the table.\n\nEach of the x-values is paired with only one y-value, so the relation is a function.",
+        "ques_type": "multi_choice",
+        "ans_type": "boolean_text",
+        "grade": 8,
+        "split": "test"
+    },
+    "9392": {
+        "question": "Look at this table. Is this relation a function?",
+        "choices": [
+            "yes",
+            "no"
+        ],
+        "answer": "no",
+        "unit": null,
+        "table_title": null,
+        "table": "x | y\n5 | 13\n5 | 7\n4 | 8",
+        "table_for_pd": {
+            "x": [
+                "5",
+                "5",
+                "4"
+            ],
+            "y": [
+                "13",
+                "7",
+                "8"
+            ]
+        },
+        "row_num": 4,
+        "column_num": 2,
+        "solution": "Look at the x-values in the table.\n\nThe x-value 5 is paired with multiple y-values, so the relation is not a function.",
+        "ques_type": "multi_choice",
+        "ans_type": "boolean_text",
+        "grade": 8,
+        "split": "test"
+    },
+    "24628": {
+        "question": "Each tool box has 10 nails. How many nails are in 3 tool boxes?",
+        "choices": null,
+        "answer": "30",
+        "unit": "nails",
+        "table_title": null,
+        "table": "Number of tool boxes | Number of nails\n1 | 10\n2 | 20\n3 | ?",
+        "table_for_pd": {
+            "Number of tool boxes": [
+                "1",
+                "2",
+                "3"
+            ],
+            "Number of nails": [
+                "10",
+                "20",
+                "?"
+            ]
+        },
+        "row_num": 4,
+        "column_num": 2,
+        "solution": "Count by tens. Use the chart: there are 30 nails in 3 tool boxes.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 1,
+        "split": "test"
+    },
+    "30687": {
+        "question": "Each plate has 10 oatmeal cookies. How many oatmeal cookies are on 3 plates?",
+        "choices": null,
+        "answer": "30",
+        "unit": "oatmeal cookies",
+        "table_title": null,
+        "table": "Number of plates | Number of oatmeal cookies\n1 | 10\n2 | 20\n3 | ?",
+        "table_for_pd": {
+            "Number of plates": [
+                "1",
+                "2",
+                "3"
+            ],
+            "Number of oatmeal cookies": [
+                "10",
+                "20",
+                "?"
+            ]
+        },
+        "row_num": 4,
+        "column_num": 2,
+        "solution": "Count by tens. Use the chart: there are 30 oatmeal cookies on 3 plates.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 1,
+        "split": "test"
+    },
+    "16864": {
+        "question": "How much money does Luna need to buy baked ziti and a mushroom pizza?",
+        "choices": null,
+        "answer": "25.42",
+        "unit": "$",
+        "table_title": null,
+        "table": "ravioli | $15.97\nmushroom pizza | $13.09\nbaked ziti | $12.33\nspaghetti and meatballs | $13.38",
+        "table_for_pd": {
+            "Column 1": [
+                "ravioli",
+                "mushroom pizza",
+                "baked ziti",
+                "spaghetti and meatballs"
+            ],
+            "Column 2": [
+                "$15.97",
+                "$13.09",
+                "$12.33",
+                "$13.38"
+            ]
+        },
+        "row_num": 4,
+        "column_num": 2,
+        "solution": "Add the price of baked ziti and the price of a mushroom pizza:\n\n$12.33 + $13.09 = $25.42\n\nLuna needs $25.42.",
+        "ques_type": "free_text",
+        "ans_type": "decimal_number",
+        "grade": 4,
+        "split": "test"
+    },
+    "5998": {
+        "question": "Each restaurant has 5 booths. How many booths are in 3 restaurants?",
+        "choices": null,
+        "answer": "15",
+        "unit": "booths",
+        "table_title": null,
+        "table": "Number of restaurants | Number of booths\n1 | 5\n2 | 10\n3 | ?",
+        "table_for_pd": {
+            "Number of restaurants": [
+                "1",
+                "2",
+                "3"
+            ],
+            "Number of booths": [
+                "5",
+                "10",
+                "?"
+            ]
+        },
+        "row_num": 4,
+        "column_num": 2,
+        "solution": "Count by fives. Use the chart: there are 15 booths in 3 restaurants.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 1,
+        "split": "test"
+    },
+    "31218": {
+        "question": "Each roof has 10 seagulls. How many seagulls are on 3 roofs?",
+        "choices": null,
+        "answer": "30",
+        "unit": "seagulls",
+        "table_title": null,
+        "table": "Number of roofs | Number of seagulls\n1 | 10\n2 | 20\n3 | ?",
+        "table_for_pd": {
+            "Number of roofs": [
+                "1",
+                "2",
+                "3"
+            ],
+            "Number of seagulls": [
+                "10",
+                "20",
+                "?"
+            ]
+        },
+        "row_num": 4,
+        "column_num": 2,
+        "solution": "Count by tens. Use the chart: there are 30 seagulls on 3 roofs.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 1,
+        "split": "test"
+    },
+    "27768": {
+        "question": "How much money does Hunter need to buy 6 dog calendars?",
+        "choices": null,
+        "answer": "41.16",
+        "unit": "$",
+        "table_title": null,
+        "table": "dog calendar | $6.86\nbook of brainteasers | $2.79\ncookbook | $8.75\nmap of Africa | $5.38",
+        "table_for_pd": {
+            "Column 1": [
+                "dog calendar",
+                "book of brainteasers",
+                "cookbook",
+                "map of Africa"
+            ],
+            "Column 2": [
+                "$6.86",
+                "$2.79",
+                "$8.75",
+                "$5.38"
+            ]
+        },
+        "row_num": 4,
+        "column_num": 2,
+        "solution": "Find the total cost of 6 dog calendars by multiplying 6 times the price of a dog calendar.\n\n$6.86 × 6 = $41.16\n\nHunter needs $41.16.",
+        "ques_type": "free_text",
+        "ans_type": "decimal_number",
+        "grade": 7,
+        "split": "test"
+    },
+    "35077": {
+        "question": "How much more does a tangerine cost than a lemon?",
+        "choices": null,
+        "answer": "0.19",
+        "unit": "$",
+        "table_title": null,
+        "table": "onion | $0.36\norange | $0.65\ntangerine | $0.38\nlemon | $0.19",
+        "table_for_pd": {
+            "Column 1": [
+                "onion",
+                "orange",
+                "tangerine",
+                "lemon"
+            ],
+            "Column 2": [
+                "$0.36",
+                "$0.65",
+                "$0.38",
+                "$0.19"
+            ]
+        },
+        "row_num": 4,
+        "column_num": 2,
+        "solution": "Subtract the price of a lemon from the price of a tangerine.\n\n$0.38 - $0.19 = $0.19\n\nA tangerine costs $0.19 more than a lemon.",
+        "ques_type": "free_text",
+        "ans_type": "decimal_number",
+        "grade": 8,
+        "split": "test"
+    },
+    "3388": {
+        "question": "How much money does Shane need to buy a soccer jersey and a bicycle?",
+        "choices": null,
+        "answer": "86.79",
+        "unit": "$",
+        "table_title": null,
+        "table": "scooter | $42.39\nsoccer jersey | $22.04\nskateboard | $77.46\nbicycle | $64.75",
+        "table_for_pd": {
+            "Column 1": [
+                "scooter",
+                "soccer jersey",
+                "skateboard",
+                "bicycle"
+            ],
+            "Column 2": [
+                "$42.39",
+                "$22.04",
+                "$77.46",
+                "$64.75"
+            ]
+        },
+        "row_num": 4,
+        "column_num": 2,
+        "solution": "Add the price of a soccer jersey and the price of a bicycle:\n\n$22.04 + $64.75 = $86.79\n\nShane needs $86.79.",
+        "ques_type": "free_text",
+        "ans_type": "decimal_number",
+        "grade": 8,
+        "split": "test"
+    },
+    "10289": {
+        "question": "Each plant has 5 tomatoes. How many tomatoes are on 3 plants?",
+        "choices": null,
+        "answer": "15",
+        "unit": null,
+        "table_title": null,
+        "table": "Number of plants | Number of tomatoes\n1 | 5\n2 | 10\n3 | ?",
+        "table_for_pd": {
+            "Number of plants": [
+                "1",
+                "2",
+                "3"
+            ],
+            "Number of tomatoes": [
+                "5",
+                "10",
+                "?"
+            ]
+        },
+        "row_num": 4,
+        "column_num": 2,
+        "solution": "Count by fives. Use the chart: there are 15 tomatoes on 3 plants.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 2,
+        "split": "test"
+    },
+    "7693": {
+        "question": "Look at this table. Is this relation a function?",
+        "choices": [
+            "yes",
+            "no"
+        ],
+        "answer": "no",
+        "unit": null,
+        "table_title": null,
+        "table": "x | y\n0 | 3\n0 | 5\n14 | 9",
+        "table_for_pd": {
+            "x": [
+                "0",
+                "0",
+                "14"
+            ],
+            "y": [
+                "3",
+                "5",
+                "9"
+            ]
+        },
+        "row_num": 4,
+        "column_num": 2,
+        "solution": "Look at the x-values in the table.\n\nThe x-value 0 is paired with multiple y-values, so the relation is not a function.",
+        "ques_type": "multi_choice",
+        "ans_type": "boolean_text",
+        "grade": 8,
+        "split": "test"
+    },
+    "18048": {
+        "question": "What is the total cost for 5 pounds of hazelnuts?",
+        "choices": null,
+        "answer": "51.45",
+        "unit": "$",
+        "table_title": null,
+        "table": "almonds | $7.23 per lb\nhazelnuts | $10.29 per lb\npecans | $4.77 per lb\npeanuts | $2.41 per lb",
+        "table_for_pd": {
+            "Column 1": [
+                "almonds",
+                "hazelnuts",
+                "pecans",
+                "peanuts"
+            ],
+            "Column 2": [
+                "$7.23 per lb",
+                "$10.29 per lb",
+                "$4.77 per lb",
+                "$2.41 per lb"
+            ]
+        },
+        "row_num": 4,
+        "column_num": 2,
+        "solution": "Find the cost of the hazelnuts. Multiply the price per pound by the number of pounds.\n\n$10.29 × 5 = $51.45\n\nThe total cost is $51.45.",
+        "ques_type": "free_text",
+        "ans_type": "decimal_number",
+        "grade": 8,
+        "split": "test"
+    },
+    "7407": {
+        "question": "How much money does Zane need to buy a business desktop and a wide-screen desktop?",
+        "choices": null,
+        "answer": "13,560",
+        "unit": "$",
+        "table_title": null,
+        "table": "business desktop | $8,409.00\nwide-screen desktop | $5,151.00\nhigh-tech laptop | $6,362.00\nsuper desktop | $9,580.00",
+        "table_for_pd": {
+            "Column 1": [
+                "business desktop",
+                "wide-screen desktop",
+                "high-tech laptop",
+                "super desktop"
+            ],
+            "Column 2": [
+                "$8,409.00",
+                "$5,151.00",
+                "$6,362.00",
+                "$9,580.00"
+            ]
+        },
+        "row_num": 4,
+        "column_num": 2,
+        "solution": "Add the price of a business desktop and the price of a wide-screen desktop:\n\n$8,409.00 + $5,151.00 = $13,560.00\n\nZane needs $13,560.00.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 4,
+        "split": "test"
+    },
+    "8067": {
+        "question": "Look at this table. Is this relation a function?",
+        "choices": [
+            "yes",
+            "no"
+        ],
+        "answer": "yes",
+        "unit": null,
+        "table_title": null,
+        "table": "x | y\n16 | 5\n1 | 12\n20 | 9",
+        "table_for_pd": {
+            "x": [
+                "16",
+                "1",
+                "20"
+            ],
+            "y": [
+                "5",
+                "12",
+                "9"
+            ]
+        },
+        "row_num": 4,
+        "column_num": 2,
+        "solution": "Look at the x-values in the table.\n\nEach of the x-values is paired with only one y-value, so the relation is a function.",
+        "ques_type": "multi_choice",
+        "ans_type": "boolean_text",
+        "grade": 8,
+        "split": "test"
+    },
+    "12501": {
+        "question": "Each bouquet has 5 lilies. How many lilies are in 3 bouquets?",
+        "choices": null,
+        "answer": "15",
+        "unit": "lilies",
+        "table_title": null,
+        "table": "Number of bouquets | Number of lilies\n1 | 5\n2 | 10\n3 | ?",
+        "table_for_pd": {
+            "Number of bouquets": [
+                "1",
+                "2",
+                "3"
+            ],
+            "Number of lilies": [
+                "5",
+                "10",
+                "?"
+            ]
+        },
+        "row_num": 4,
+        "column_num": 2,
+        "solution": "Count by fives. Use the chart: there are 15 lilies in 3 bouquets.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 1,
+        "split": "test"
+    },
+    "23883": {
+        "question": "Levi wants to buy 2 pounds of rice cakes. How much will he spend?",
+        "choices": null,
+        "answer": "12",
+        "unit": "$",
+        "table_title": null,
+        "table": "cheese puffs | $2/pound\nflour tortilla chips | $1/pound\nrice cakes | $6/pound\nsalted popcorn | $6/pound",
+        "table_for_pd": {
+            "Column 1": [
+                "cheese puffs",
+                "flour tortilla chips",
+                "rice cakes",
+                "salted popcorn"
+            ],
+            "Column 2": [
+                "$2/pound",
+                "$1/pound",
+                "$6/pound",
+                "$6/pound"
+            ]
+        },
+        "row_num": 4,
+        "column_num": 2,
+        "solution": "Find the cost of the rice cakes. Multiply the price per pound by the number of pounds.\n$6 × 2 = $12\nHe will spend $12.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 6,
+        "split": "test"
+    },
+    "1476": {
+        "question": "How much money does Jamal need to buy 6 blue sweaters?",
+        "choices": null,
+        "answer": "32.28",
+        "unit": "$",
+        "table_title": null,
+        "table": "blue sweater | $5.38\nstriped shirt | $7.32\npair of shorts | $5.02\npair of white socks | $2.02",
+        "table_for_pd": {
+            "Column 1": [
+                "blue sweater",
+                "striped shirt",
+                "pair of shorts",
+                "pair of white socks"
+            ],
+            "Column 2": [
+                "$5.38",
+                "$7.32",
+                "$5.02",
+                "$2.02"
+            ]
+        },
+        "row_num": 4,
+        "column_num": 2,
+        "solution": "Find the total cost of 6 blue sweaters by multiplying 6 times the price of a blue sweater.\n\n$5.38 × 6 = $32.28\n\nJamal needs $32.28.",
+        "ques_type": "free_text",
+        "ans_type": "decimal_number",
+        "grade": 8,
+        "split": "test"
+    },
+    "5525": {
+        "question": "Each bag has 10 yellow buttons. How many yellow buttons are in 3 bags?",
+        "choices": null,
+        "answer": "30",
+        "unit": "yellow buttons",
+        "table_title": null,
+        "table": "Number of bags | Number of yellow buttons\n1 | 10\n2 | 20\n3 | ?",
+        "table_for_pd": {
+            "Number of bags": [
+                "1",
+                "2",
+                "3"
+            ],
+            "Number of yellow buttons": [
+                "10",
+                "20",
+                "?"
+            ]
+        },
+        "row_num": 4,
+        "column_num": 2,
+        "solution": "Count by tens. Use the chart: there are 30 yellow buttons in 3 bags.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 1,
+        "split": "test"
+    },
+    "1922": {
+        "question": "How much money does Joey need to buy 4 popsicle stands?",
+        "choices": null,
+        "answer": "35,076",
+        "unit": "$",
+        "table_title": null,
+        "table": "popsicle stand | $8,769.00\npeanut cart | $8,110.00\npopcorn cart | $6,550.00\nhot dog stand | $9,120.00",
+        "table_for_pd": {
+            "Column 1": [
+                "popsicle stand",
+                "peanut cart",
+                "popcorn cart",
+                "hot dog stand"
+            ],
+            "Column 2": [
+                "$8,769.00",
+                "$8,110.00",
+                "$6,550.00",
+                "$9,120.00"
+            ]
+        },
+        "row_num": 4,
+        "column_num": 2,
+        "solution": "Find the total cost of 4 popsicle stands by multiplying 4 times the price of a popsicle stand.\n\n$8,769.00 × 4 = $35,076.00\n\nJoey needs $35,076.00.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 8,
+        "split": "test"
+    },
+    "11551": {
+        "question": "How much money does Dan need to buy a grape lollipop and a caramel?",
+        "choices": null,
+        "answer": "0.53",
+        "unit": "$",
+        "table_title": null,
+        "table": "gumball | $0.11\npeanut butter cup | $0.15\ncaramel | $0.13\ngrape lollipop | $0.40",
+        "table_for_pd": {
+            "Column 1": [
+                "gumball",
+                "peanut butter cup",
+                "caramel",
+                "grape lollipop"
+            ],
+            "Column 2": [
+                "$0.11",
+                "$0.15",
+                "$0.13",
+                "$0.40"
+            ]
+        },
+        "row_num": 4,
+        "column_num": 2,
+        "solution": "Add the price of a grape lollipop and the price of a caramel:\n\n$0.40 + $0.13 = $0.53\n\nDan needs $0.53.",
+        "ques_type": "free_text",
+        "ans_type": "decimal_number",
+        "grade": 7,
+        "split": "test"
+    },
+    "15657": {
+        "question": "Some farmers compared how many sheep were in their flocks. Which farmer has the fewest sheep?",
+        "choices": [
+            "Farmer Bob",
+            "Farmer Dan",
+            "Farmer Meghan",
+            "Farmer Dave"
+        ],
+        "answer": "Farmer Dan",
+        "unit": null,
+        "table_title": "Sheep owned",
+        "table": "Farmer | Number of sheep\nFarmer Bob | 79\nFarmer Dan | 70\nFarmer Meghan | 72\nFarmer Dave | 71",
+        "table_for_pd": {
+            "Farmer": [
+                "Farmer Bob",
+                "Farmer Dan",
+                "Farmer Meghan",
+                "Farmer Dave"
+            ],
+            "Number of sheep": [
+                "79",
+                "70",
+                "72",
+                "71"
+            ]
+        },
+        "row_num": 5,
+        "column_num": 2,
+        "solution": "Find the least number in the table. Remember to compare the numbers starting with the highest place value. The least number is 70.\n\nNow find the corresponding farmer. Farmer Dan corresponds to 70.",
+        "ques_type": "multi_choice",
+        "ans_type": "extractive_text",
+        "grade": 2,
+        "split": "test"
+    },
+    "17512": {
+        "question": "Jackie has $24.00. Does she have enough to buy a mushroom pizza and pasta with tomato sauce?",
+        "choices": [
+            "yes",
+            "no"
+        ],
+        "answer": "no",
+        "unit": null,
+        "table_title": null,
+        "table": "mushroom pizza | $14.93\nbaked chicken | $18.28\npasta with tomato sauce | $10.51\nravioli | $11.41\npasta with pesto sauce | $10.78",
+        "table_for_pd": {
+            "Column 1": [
+                "mushroom pizza",
+                "baked chicken",
+                "pasta with tomato sauce",
+                "ravioli",
+                "pasta with pesto sauce"
+            ],
+            "Column 2": [
+                "$14.93",
+                "$18.28",
+                "$10.51",
+                "$11.41",
+                "$10.78"
+            ]
+        },
+        "row_num": 5,
+        "column_num": 2,
+        "solution": "Add the price of a mushroom pizza and the price of pasta with tomato sauce:\n\n$14.93 + $10.51 = $25.44\n\n$25.44 is more than $24.00. Jackie does not have enough money.",
+        "ques_type": "multi_choice",
+        "ans_type": "boolean_text",
+        "grade": 7,
+        "split": "test"
+    },
+    "14217": {
+        "question": "Sandeep went to the store and bought 4/5 of a pound of glass beads. How much did he spend?",
+        "choices": null,
+        "answer": "4.80",
+        "unit": "$",
+        "table_title": null,
+        "table": "paper beads | $6/pound\nplastic beads | $10/pound\nmetal beads | $12/pound\nglass beads | $6/pound\nwooden beads | $12/pound",
+        "table_for_pd": {
+            "Column 1": [
+                "paper beads",
+                "plastic beads",
+                "metal beads",
+                "glass beads",
+                "wooden beads"
+            ],
+            "Column 2": [
+                "$6/pound",
+                "$10/pound",
+                "$12/pound",
+                "$6/pound",
+                "$12/pound"
+            ]
+        },
+        "row_num": 5,
+        "column_num": 2,
+        "solution": "Find the cost of the glass beads. Multiply the price per pound by the number of pounds.\n$6 × \\frac{4}{5} = $6 × 0.8 = $4.80\nHe spent $4.80.",
+        "ques_type": "free_text",
+        "ans_type": "decimal_number",
+        "grade": 6,
+        "split": "test"
+    },
+    "21423": {
+        "question": "The school district compared how many swings each elementary school has. Which school has the most swings?",
+        "choices": [
+            "Jefferson Elementary",
+            "Roseville Elementary",
+            "Hillside Elementary",
+            "Sierra Elementary"
+        ],
+        "answer": "Roseville Elementary",
+        "unit": null,
+        "table_title": "Swings",
+        "table": "School | Number of swings\nJefferson Elementary | 13\nRoseville Elementary | 18\nHillside Elementary | 17\nSierra Elementary | 11",
+        "table_for_pd": {
+            "School": [
+                "Jefferson Elementary",
+                "Roseville Elementary",
+                "Hillside Elementary",
+                "Sierra Elementary"
+            ],
+            "Number of swings": [
+                "13",
+                "18",
+                "17",
+                "11"
+            ]
+        },
+        "row_num": 5,
+        "column_num": 2,
+        "solution": "Find the greatest number in the table. Remember to compare the numbers starting with the highest place value. The greatest number is 18.\n\nNow find the corresponding school. Roseville Elementary corresponds to 18.",
+        "ques_type": "multi_choice",
+        "ans_type": "extractive_text",
+        "grade": 2,
+        "split": "test"
+    },
+    "37044": {
+        "question": "Paula has $7.00. Does she have enough to buy a book about fish and a book about South America?",
+        "choices": [
+            "yes",
+            "no"
+        ],
+        "answer": "yes",
+        "unit": null,
+        "table_title": null,
+        "table": "book about fish | $5.00\nbook about South America | $1.00\nbook about Antarctica | $5.00\nbook about basketball | $5.00\nbook about trains | $8.00",
+        "table_for_pd": {
+            "Column 1": [
+                "book about fish",
+                "book about South America",
+                "book about Antarctica",
+                "book about basketball",
+                "book about trains"
+            ],
+            "Column 2": [
+                "$5.00",
+                "$1.00",
+                "$5.00",
+                "$5.00",
+                "$8.00"
+            ]
+        },
+        "row_num": 5,
+        "column_num": 2,
+        "solution": "Add the price of a book about fish and the price of a book about South America:\n\n$5.00 + $1.00 = $6.00\n\n$6.00 is less than $7.00. Paula does have enough money.",
+        "ques_type": "multi_choice",
+        "ans_type": "boolean_text",
+        "grade": 3,
+        "split": "test"
+    },
+    "30192": {
+        "question": "Paula has $154. Does she have enough to buy a football ticket and a basketball ticket?",
+        "choices": [
+            "yes",
+            "no"
+        ],
+        "answer": "yes",
+        "unit": null,
+        "table_title": null,
+        "table": "football ticket | $90\ngolf ticket | $57\nsoccer ticket | $76\nbasketball ticket | $58\ntennis ticket | $91",
+        "table_for_pd": {
+            "Column 1": [
+                "football ticket",
+                "golf ticket",
+                "soccer ticket",
+                "basketball ticket",
+                "tennis ticket"
+            ],
+            "Column 2": [
+                "$90",
+                "$57",
+                "$76",
+                "$58",
+                "$91"
+            ]
+        },
+        "row_num": 5,
+        "column_num": 2,
+        "solution": "Add the price of a football ticket and the price of a basketball ticket:\n\n$90 + $58 = $148\n\n$148 is less than $154. Paula does have enough money.",
+        "ques_type": "multi_choice",
+        "ans_type": "boolean_text",
+        "grade": 4,
+        "split": "test"
+    },
+    "30599": {
+        "question": "Some candy companies compared how many pieces of candy they have produced. Which company has produced the most candy?",
+        "choices": [
+            "Goodman Candies",
+            "Tasty Treats",
+            "Sweet Things",
+            "Chocolate and More"
+        ],
+        "answer": "Chocolate and More",
+        "unit": null,
+        "table_title": "Candy production",
+        "table": "Company | Number of pieces of candy\nGoodman Candies | 532\nTasty Treats | 513\nSweet Things | 515\nChocolate and More | 553",
+        "table_for_pd": {
+            "Company": [
+                "Goodman Candies",
+                "Tasty Treats",
+                "Sweet Things",
+                "Chocolate and More"
+            ],
+            "Number of pieces of candy": [
+                "532",
+                "513",
+                "515",
+                "553"
+            ]
+        },
+        "row_num": 5,
+        "column_num": 2,
+        "solution": "Find the greatest number in the table. Remember to compare the numbers starting with the highest place value. The greatest number is 553.\n\nNow find the corresponding company. Chocolate and More corresponds to 553.",
+        "ques_type": "multi_choice",
+        "ans_type": "extractive_text",
+        "grade": 2,
+        "split": "test"
+    },
+    "16676": {
+        "question": "The board of commerce recorded how many employees work at each company. Which company has the fewest employees?",
+        "choices": [
+            "ABC Electronics",
+            "Madison Corporation",
+            "Future Computers",
+            "Bronson Attorneys"
+        ],
+        "answer": "Future Computers",
+        "unit": null,
+        "table_title": "Company sizes",
+        "table": "Company | Number of employees\nABC Electronics | 515\nMadison Corporation | 548\nFuture Computers | 514\nBronson Attorneys | 554",
+        "table_for_pd": {
+            "Company": [
+                "ABC Electronics",
+                "Madison Corporation",
+                "Future Computers",
+                "Bronson Attorneys"
+            ],
+            "Number of employees": [
+                "515",
+                "548",
+                "514",
+                "554"
+            ]
+        },
+        "row_num": 5,
+        "column_num": 2,
+        "solution": "Find the least number in the table. Remember to compare the numbers starting with the highest place value. The least number is 514.\n\nNow find the corresponding company. Future Computers corresponds to 514.",
+        "ques_type": "multi_choice",
+        "ans_type": "extractive_text",
+        "grade": 2,
+        "split": "test"
+    },
+    "11258": {
+        "question": "Some teachers compared how many years they have been teaching. Who has been teaching for the fewest years?",
+        "choices": [
+            "Ms. Chan",
+            "Miss Torres",
+            "Mrs. Ramirez",
+            "Miss Lim"
+        ],
+        "answer": "Mrs. Ramirez",
+        "unit": null,
+        "table_title": "Years of teaching",
+        "table": "Teacher | Number of years\nMs. Chan | 17\nMiss Torres | 11\nMrs. Ramirez | 10\nMiss Lim | 14",
+        "table_for_pd": {
+            "Teacher": [
+                "Ms. Chan",
+                "Miss Torres",
+                "Mrs. Ramirez",
+                "Miss Lim"
+            ],
+            "Number of years": [
+                "17",
+                "11",
+                "10",
+                "14"
+            ]
+        },
+        "row_num": 5,
+        "column_num": 2,
+        "solution": "Find the least number in the table. Remember to compare the numbers starting with the highest place value. The least number is 10.\n\nNow find the corresponding teacher. Mrs. Ramirez corresponds to 10.",
+        "ques_type": "multi_choice",
+        "ans_type": "extractive_text",
+        "grade": 2,
+        "split": "test"
+    },
+    "36787": {
+        "question": "Some teachers compared how many years they have been teaching. Who has been teaching the longest?",
+        "choices": [
+            "Ms. Chan",
+            "Mr. Perez",
+            "Miss Lim",
+            "Ms. Yamamoto"
+        ],
+        "answer": "Mr. Perez",
+        "unit": null,
+        "table_title": "Years of teaching",
+        "table": "Teacher | Number of years\nMs. Chan | 11\nMr. Perez | 13\nMiss Lim | 10\nMs. Yamamoto | 12",
+        "table_for_pd": {
+            "Teacher": [
+                "Ms. Chan",
+                "Mr. Perez",
+                "Miss Lim",
+                "Ms. Yamamoto"
+            ],
+            "Number of years": [
+                "11",
+                "13",
+                "10",
+                "12"
+            ]
+        },
+        "row_num": 5,
+        "column_num": 2,
+        "solution": "Find the greatest number in the table. Remember to compare the numbers starting with the highest place value. The greatest number is 13.\n\nNow find the corresponding teacher. Mr. Perez corresponds to 13.",
+        "ques_type": "multi_choice",
+        "ans_type": "extractive_text",
+        "grade": 2,
+        "split": "test"
+    },
+    "15621": {
+        "question": "Elizabeth has $12.50. Does she have enough to buy a book about fish and a book about baseball?",
+        "choices": [
+            "yes",
+            "no"
+        ],
+        "answer": "yes",
+        "unit": null,
+        "table_title": null,
+        "table": "book about baseball | $7.38\nbook about snakes | $6.04\nbook about fish | $4.74\nbook about art | $1.47\nbook about trains | $9.54",
+        "table_for_pd": {
+            "Column 1": [
+                "book about baseball",
+                "book about snakes",
+                "book about fish",
+                "book about art",
+                "book about trains"
+            ],
+            "Column 2": [
+                "$7.38",
+                "$6.04",
+                "$4.74",
+                "$1.47",
+                "$9.54"
+            ]
+        },
+        "row_num": 5,
+        "column_num": 2,
+        "solution": "Add the price of a book about fish and the price of a book about baseball:\n\n$4.74 + $7.38 = $12.12\n\n$12.12 is less than $12.50. Elizabeth does have enough money.",
+        "ques_type": "multi_choice",
+        "ans_type": "boolean_text",
+        "grade": 7,
+        "split": "test"
+    },
+    "12654": {
+        "question": "Anthony has $30. Does he have enough to buy a mystery game and a remote control car?",
+        "choices": [
+            "yes",
+            "no"
+        ],
+        "answer": "no",
+        "unit": null,
+        "table_title": null,
+        "table": "toy piano | $16\nremote control car | $11\nchess board | $22\nmystery game | $20\ntrivia game | $18",
+        "table_for_pd": {
+            "Column 1": [
+                "toy piano",
+                "remote control car",
+                "chess board",
+                "mystery game",
+                "trivia game"
+            ],
+            "Column 2": [
+                "$16",
+                "$11",
+                "$22",
+                "$20",
+                "$18"
+            ]
+        },
+        "row_num": 5,
+        "column_num": 2,
+        "solution": "Add the price of a mystery game and the price of a remote control car:\n\n$20 + $11 = $31\n\n$31 is more than $30. Anthony does not have enough money.",
+        "ques_type": "multi_choice",
+        "ans_type": "boolean_text",
+        "grade": 7,
+        "split": "test"
+    },
+    "3961": {
+        "question": "A machine dispensed red gumdrops into bags of various sizes. How many bags had at least 40 red gumdrops?",
+        "choices": null,
+        "answer": "15",
+        "unit": "bags",
+        "table_title": "Red gumdrops per bag",
+        "table": "Stem | Leaf \n4 | 0, 2, 6, 7\n5 | 0, 2, 6, 8, 8, 9\n6 | 0, 6\n7 | 6, 6, 8",
+        "table_for_pd": {
+            "Stem": [
+                "4",
+                "5",
+                "6",
+                "7"
+            ],
+            "Leaf ": [
+                "0, 2, 6, 7",
+                "0, 2, 6, 8, 8, 9",
+                "0, 6",
+                "6, 6, 8"
+            ]
+        },
+        "row_num": 5,
+        "column_num": 2,
+        "solution": "Count all the leaves in the rows with stems 4, 5, 6, and 7.\n\nYou counted 15 leaves, which are blue in the stem-and-leaf plot above. 15 bags had at least 40 red gumdrops.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 5,
+        "split": "test"
+    },
+    "26473": {
+        "question": "Harry has $0.50. Does he have enough to buy a flat-head bolt and an elastic band?",
+        "choices": [
+            "yes",
+            "no"
+        ],
+        "answer": "yes",
+        "unit": null,
+        "table_title": null,
+        "table": "short steel screw | $0.35\nflat-head bolt | $0.13\nminiature padlock | $0.59\nball of twine | $0.85\nelastic band | $0.22",
+        "table_for_pd": {
+            "Column 1": [
+                "short steel screw",
+                "flat-head bolt",
+                "miniature padlock",
+                "ball of twine",
+                "elastic band"
+            ],
+            "Column 2": [
+                "$0.35",
+                "$0.13",
+                "$0.59",
+                "$0.85",
+                "$0.22"
+            ]
+        },
+        "row_num": 5,
+        "column_num": 2,
+        "solution": "Add the price of a flat-head bolt and the price of an elastic band:\n\n$0.13 + $0.22 = $0.35\n\n$0.35 is less than $0.50. Harry does have enough money.",
+        "ques_type": "multi_choice",
+        "ans_type": "boolean_text",
+        "grade": 8,
+        "split": "test"
+    },
+    "2314": {
+        "question": "Franklin has $27.00. Does he have enough to buy a chocolate cheesecake and an apple tart?",
+        "choices": [
+            "yes",
+            "no"
+        ],
+        "answer": "yes",
+        "unit": null,
+        "table_title": null,
+        "table": "carrot cake | $26.09\npear tart | $18.02\nchocolate cheesecake | $10.12\napple tart | $16.88\nbirthday cake | $24.29",
+        "table_for_pd": {
+            "Column 1": [
+                "carrot cake",
+                "pear tart",
+                "chocolate cheesecake",
+                "apple tart",
+                "birthday cake"
+            ],
+            "Column 2": [
+                "$26.09",
+                "$18.02",
+                "$10.12",
+                "$16.88",
+                "$24.29"
+            ]
+        },
+        "row_num": 5,
+        "column_num": 2,
+        "solution": "Add the price of a chocolate cheesecake and the price of an apple tart:\n\n$10.12 + $16.88 = $27.00\n\nSince Franklin has $27.00, he has just enough money.",
+        "ques_type": "multi_choice",
+        "ans_type": "boolean_text",
+        "grade": 8,
+        "split": "test"
+    },
+    "19378": {
+        "question": "Some candy companies compared how many pieces of candy they have produced. Which company has produced the most candy?",
+        "choices": [
+            "Goodman Candies",
+            "Sugary Candies",
+            "Candy by Katie",
+            "Tasty Treats"
+        ],
+        "answer": "Sugary Candies",
+        "unit": null,
+        "table_title": "Candy production",
+        "table": "Company | Number of pieces of candy\nGoodman Candies | 859\nSugary Candies | 895\nCandy by Katie | 858\nTasty Treats | 889",
+        "table_for_pd": {
+            "Company": [
+                "Goodman Candies",
+                "Sugary Candies",
+                "Candy by Katie",
+                "Tasty Treats"
+            ],
+            "Number of pieces of candy": [
+                "859",
+                "895",
+                "858",
+                "889"
+            ]
+        },
+        "row_num": 5,
+        "column_num": 2,
+        "solution": "Find the greatest number in the table. Remember to compare the numbers starting with the highest place value. The greatest number is 895.\n\nNow find the corresponding company. Sugary Candies corresponds to 895.",
+        "ques_type": "multi_choice",
+        "ans_type": "extractive_text",
+        "grade": 2,
+        "split": "test"
+    },
+    "11566": {
+        "question": "Deb has $55. Does she have enough to buy a pink sweater and a pair of shorts?",
+        "choices": [
+            "yes",
+            "no"
+        ],
+        "answer": "yes",
+        "unit": null,
+        "table_title": null,
+        "table": "pair of shorts | $24\npink sweater | $30\npair of brown pants | $22\npair of sweat pants | $12\ngreen dress | $48",
+        "table_for_pd": {
+            "Column 1": [
+                "pair of shorts",
+                "pink sweater",
+                "pair of brown pants",
+                "pair of sweat pants",
+                "green dress"
+            ],
+            "Column 2": [
+                "$24",
+                "$30",
+                "$22",
+                "$12",
+                "$48"
+            ]
+        },
+        "row_num": 5,
+        "column_num": 2,
+        "solution": "Add the price of a pink sweater and the price of a pair of shorts:\n\n$30 + $24 = $54\n\n$54 is less than $55. Deb does have enough money.",
+        "ques_type": "multi_choice",
+        "ans_type": "boolean_text",
+        "grade": 5,
+        "split": "test"
+    },
+    "12849": {
+        "question": "Manuel has $1.77. Does he have enough to buy a pumpkin key chain and a frog key chain?",
+        "choices": [
+            "yes",
+            "no"
+        ],
+        "answer": "no",
+        "unit": null,
+        "table_title": null,
+        "table": "pumpkin key chain | $0.93\ncat key chain | $0.58\nfrog key chain | $0.92\nglobe key chain | $0.80\ncartoon character key chain | $0.67",
+        "table_for_pd": {
+            "Column 1": [
+                "pumpkin key chain",
+                "cat key chain",
+                "frog key chain",
+                "globe key chain",
+                "cartoon character key chain"
+            ],
+            "Column 2": [
+                "$0.93",
+                "$0.58",
+                "$0.92",
+                "$0.80",
+                "$0.67"
+            ]
+        },
+        "row_num": 5,
+        "column_num": 2,
+        "solution": "Add the price of a pumpkin key chain and the price of a frog key chain:\n\n$0.93 + $0.92 = $1.85\n\n$1.85 is more than $1.77. Manuel does not have enough money.",
+        "ques_type": "multi_choice",
+        "ans_type": "boolean_text",
+        "grade": 7,
+        "split": "test"
+    },
+    "14478": {
+        "question": "Jamie has $9.50. Does he have enough to buy an orange T-shirt and a pair of boots?",
+        "choices": [
+            "yes",
+            "no"
+        ],
+        "answer": "no",
+        "unit": null,
+        "table_title": null,
+        "table": "black jacket | $6.74\ndenim jacket | $7.07\nred sweater | $8.08\norange T-shirt | $2.35\npair of boots | $7.39",
+        "table_for_pd": {
+            "Column 1": [
+                "black jacket",
+                "denim jacket",
+                "red sweater",
+                "orange T-shirt",
+                "pair of boots"
+            ],
+            "Column 2": [
+                "$6.74",
+                "$7.07",
+                "$8.08",
+                "$2.35",
+                "$7.39"
+            ]
+        },
+        "row_num": 5,
+        "column_num": 2,
+        "solution": "Add the price of an orange T-shirt and the price of a pair of boots:\n\n$2.35 + $7.39 = $9.74\n\n$9.74 is more than $9.50. Jamie does not have enough money.",
+        "ques_type": "multi_choice",
+        "ans_type": "boolean_text",
+        "grade": 7,
+        "split": "test"
+    },
+    "6727": {
+        "question": "Hanson has $22.00. Does he have enough to buy pasta with meat sauce and a pepperoni pizza?",
+        "choices": [
+            "yes",
+            "no"
+        ],
+        "answer": "no",
+        "unit": null,
+        "table_title": null,
+        "table": "pepperoni pizza | $10.00\nlasagna | $14.00\nmushroom pizza | $15.00\npasta with meat sauce | $13.00\npasta with mushrooms | $13.00",
+        "table_for_pd": {
+            "Column 1": [
+                "pepperoni pizza",
+                "lasagna",
+                "mushroom pizza",
+                "pasta with meat sauce",
+                "pasta with mushrooms"
+            ],
+            "Column 2": [
+                "$10.00",
+                "$14.00",
+                "$15.00",
+                "$13.00",
+                "$13.00"
+            ]
+        },
+        "row_num": 5,
+        "column_num": 2,
+        "solution": "Add the price of pasta with meat sauce and the price of a pepperoni pizza:\n\n$13.00 + $10.00 = $23.00\n\n$23.00 is more than $22.00. Hanson does not have enough money.",
+        "ques_type": "multi_choice",
+        "ans_type": "boolean_text",
+        "grade": 8,
+        "split": "test"
+    },
+    "34795": {
+        "question": "A business analyst compared purchases of different types of cereal. Which cereal had the fewest boxes purchased?",
+        "choices": [
+            "Fruit-E-Ohs",
+            "Caramel Deelish",
+            "Whole Wheat Goodness",
+            "Krispee Bites"
+        ],
+        "answer": "Whole Wheat Goodness",
+        "unit": null,
+        "table_title": "Boxes of cereal purchased",
+        "table": "Cereal | Number of boxes purchased\nFruit-E-Ohs | 347\nCaramel Deelish | 373\nWhole Wheat Goodness | 331\nKrispee Bites | 374",
+        "table_for_pd": {
+            "Cereal": [
+                "Fruit-E-Ohs",
+                "Caramel Deelish",
+                "Whole Wheat Goodness",
+                "Krispee Bites"
+            ],
+            "Number of boxes purchased": [
+                "347",
+                "373",
+                "331",
+                "374"
+            ]
+        },
+        "row_num": 5,
+        "column_num": 2,
+        "solution": "Find the least number in the table. Remember to compare the numbers starting with the highest place value. The least number is 331.\n\nNow find the corresponding cereal. Whole Wheat Goodness corresponds to 331.",
+        "ques_type": "multi_choice",
+        "ans_type": "extractive_text",
+        "grade": 2,
+        "split": "test"
+    },
+    "18479": {
+        "question": "Ms. Baldwin reported her students' scores on the most recent quiz. How many students scored fewer than 30 points?",
+        "choices": null,
+        "answer": "3",
+        "unit": "students",
+        "table_title": "Quiz scores",
+        "table": "Stem | Leaf \n1 | 4, 5, 5\n2 | \n3 | 2, 7\n4 | 6, 7",
+        "table_for_pd": {
+            "Stem": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "Leaf ": [
+                "4, 5, 5",
+                "",
+                "2, 7",
+                "6, 7"
+            ]
+        },
+        "row_num": 5,
+        "column_num": 2,
+        "solution": "Count all the leaves in the rows with stems 1 and 2.\n\nYou counted 3 leaves, which are blue in the stem-and-leaf plot above. 3 students scored fewer than 30 points.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 7,
+        "split": "test"
+    },
+    "6959": {
+        "question": "An environmental agency examined how many trees were planted by different organizations. Which organization planted the fewest trees?",
+        "choices": [
+            "Dreaming Green",
+            "Plant It",
+            "New Planet",
+            "Trees for All"
+        ],
+        "answer": "Plant It",
+        "unit": null,
+        "table_title": "Trees planted",
+        "table": "Organization | Number of trees planted\nDreaming Green | 995\nPlant It | 958\nNew Planet | 985\nTrees for All | 989",
+        "table_for_pd": {
+            "Organization": [
+                "Dreaming Green",
+                "Plant It",
+                "New Planet",
+                "Trees for All"
+            ],
+            "Number of trees planted": [
+                "995",
+                "958",
+                "985",
+                "989"
+            ]
+        },
+        "row_num": 5,
+        "column_num": 2,
+        "solution": "Find the least number in the table. Remember to compare the numbers starting with the highest place value. The least number is 958.\n\nNow find the corresponding organization. Plant It corresponds to 958.",
+        "ques_type": "multi_choice",
+        "ans_type": "extractive_text",
+        "grade": 2,
+        "split": "test"
+    },
+    "5220": {
+        "question": "Some friends compared the sizes of their stuffed animal collections. Who has the most stuffed animals?",
+        "choices": [
+            "Dylan",
+            "Rose",
+            "Troy",
+            "Edmond"
+        ],
+        "answer": "Troy",
+        "unit": null,
+        "table_title": "Stuffed animal collections",
+        "table": "Name | Number of stuffed animals\nDylan | 151\nRose | 118\nTroy | 185\nEdmond | 158",
+        "table_for_pd": {
+            "Name": [
+                "Dylan",
+                "Rose",
+                "Troy",
+                "Edmond"
+            ],
+            "Number of stuffed animals": [
+                "151",
+                "118",
+                "185",
+                "158"
+            ]
+        },
+        "row_num": 5,
+        "column_num": 2,
+        "solution": "Find the greatest number in the table. Remember to compare the numbers starting with the highest place value. The greatest number is 185.\n\nNow find the corresponding name. Troy corresponds to 185.",
+        "ques_type": "multi_choice",
+        "ans_type": "extractive_text",
+        "grade": 2,
+        "split": "test"
+    },
+    "17755": {
+        "question": "Sasha has $15.00. Does she have enough to buy a glass measuring cup and a mixing bowl?",
+        "choices": [
+            "yes",
+            "no"
+        ],
+        "answer": "yes",
+        "unit": null,
+        "table_title": null,
+        "table": "glass measuring cup | $9.00\nmixing bowl | $5.00\ncookie jar | $7.00\nice cream scoop | $9.00\nrolling pin | $6.00",
+        "table_for_pd": {
+            "Column 1": [
+                "glass measuring cup",
+                "mixing bowl",
+                "cookie jar",
+                "ice cream scoop",
+                "rolling pin"
+            ],
+            "Column 2": [
+                "$9.00",
+                "$5.00",
+                "$7.00",
+                "$9.00",
+                "$6.00"
+            ]
+        },
+        "row_num": 5,
+        "column_num": 2,
+        "solution": "Add the price of a glass measuring cup and the price of a mixing bowl:\n\n$9.00 + $5.00 = $14.00\n\n$14.00 is less than $15.00. Sasha does have enough money.",
+        "ques_type": "multi_choice",
+        "ans_type": "boolean_text",
+        "grade": 3,
+        "split": "test"
+    },
+    "18204": {
+        "question": "A pet store owner had her staff count the number of fish in each tank. How many tanks have exactly 53 fish?",
+        "choices": null,
+        "answer": "4",
+        "unit": "tanks",
+        "table_title": "Fish per tank",
+        "table": "Stem | Leaf \n5 | 2, 3, 3, 3, 3\n6 | 0, 1, 3, 5, 5, 7\n7 | 5\n8 | 0, 1, 2, 4\n9 | 0",
+        "table_for_pd": {
+            "Stem": [
+                "5",
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "Leaf ": [
+                "2, 3, 3, 3, 3",
+                "0, 1, 3, 5, 5, 7",
+                "5",
+                "0, 1, 2, 4",
+                "0"
+            ]
+        },
+        "row_num": 6,
+        "column_num": 2,
+        "solution": "For the number 53, the stem is 5, and the leaf is 3. Find the row where the stem is 5. In that row, count all the leaves equal to 3.\n\nYou counted 4 leaves, which are blue in the stem-and-leaf plot above. 4 tanks have exactly 53 fish.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 8,
+        "split": "test"
+    },
+    "11686": {
+        "question": "Cindy went to the store. She bought 3 kilograms of boysenberry jam and 4 kilograms of raspberry jam. How much did she spend?",
+        "choices": null,
+        "answer": "17",
+        "unit": "$",
+        "table_title": null,
+        "table": "marmalade | $2 per kg\nboysenberry jam | $3 per kg\nraspberry jam | $2 per kg\nblueberry jam | $2 per kg\nblackberry jam | $3 per kg\napple butter | $2 per kg",
+        "table_for_pd": {
+            "Column 1": [
+                "marmalade",
+                "boysenberry jam",
+                "raspberry jam",
+                "blueberry jam",
+                "blackberry jam",
+                "apple butter"
+            ],
+            "Column 2": [
+                "$2 per kg",
+                "$3 per kg",
+                "$2 per kg",
+                "$2 per kg",
+                "$3 per kg",
+                "$2 per kg"
+            ]
+        },
+        "row_num": 6,
+        "column_num": 2,
+        "solution": "Find the cost of the boysenberry jam. Multiply:\n\n$3 × 3 = $9\n\nFind the cost of the raspberry jam. Multiply:\n\n$2 × 4 = $8\n\nNow find the total cost by adding:\n\n$9 + $8 = $17\n\nShe spent $17.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 8,
+        "split": "test"
+    },
+    "31039": {
+        "question": "A farm equipment company kept a record of the number of tractors made each month. What is the range of the numbers?",
+        "choices": null,
+        "answer": "1",
+        "unit": null,
+        "table_title": "Tractors made",
+        "table": "Month | Number of tractors\nDecember | 9\nJanuary | 9\nFebruary | 9\nMarch | 10\nApril | 10",
+        "table_for_pd": {
+            "Month": [
+                "December",
+                "January",
+                "February",
+                "March",
+                "April"
+            ],
+            "Number of tractors": [
+                "9",
+                "9",
+                "9",
+                "10",
+                "10"
+            ]
+        },
+        "row_num": 6,
+        "column_num": 2,
+        "solution": "Read the numbers from the table.\n\n9, 9, 9, 10, 10\n\nFirst, find the greatest number. The greatest number is 10.\n\nNext, find the least number. The least number is 9.\n\nSubtract the least number from the greatest number:\n\n10 − 9 = 1\n\nThe range is 1.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 7,
+        "split": "test"
+    },
+    "36798": {
+        "question": "A farmer recalled how many watermelons were harvested in the past 5 days. What is the median of the numbers?",
+        "choices": null,
+        "answer": "57",
+        "unit": null,
+        "table_title": "Watermelons harvested",
+        "table": "Day | Number of watermelons\nMonday | 57\nTuesday | 57\nWednesday | 50\nThursday | 59\nFriday | 72",
+        "table_for_pd": {
+            "Day": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+            ],
+            "Number of watermelons": [
+                "57",
+                "57",
+                "50",
+                "59",
+                "72"
+            ]
+        },
+        "row_num": 6,
+        "column_num": 2,
+        "solution": "Read the numbers from the table.\n\n57, 57, 50, 59, 72\n\nFirst, arrange the numbers from least to greatest:\n\n50, 57, 57, 59, 72\n\nNow find the number in the middle.\n\n50, 57, 57, 59, 72\n\nThe number in the middle is 57.\n\nThe median is 57.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 5,
+        "split": "test"
+    },
+    "28711": {
+        "question": "Mike went on a bird watching trip and jotted down the number of birds he saw each day. What is the median of the numbers?",
+        "choices": null,
+        "answer": "8",
+        "unit": null,
+        "table_title": "Number of birds",
+        "table": "Day | Number of birds\nWednesday | 8\nThursday | 8\nFriday | 7\nSaturday | 10\nSunday | 10",
+        "table_for_pd": {
+            "Day": [
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "Number of birds": [
+                "8",
+                "8",
+                "7",
+                "10",
+                "10"
+            ]
+        },
+        "row_num": 6,
+        "column_num": 2,
+        "solution": "Read the numbers from the table.\n\n8, 8, 7, 10, 10\n\nFirst, arrange the numbers from least to greatest:\n\n7, 8, 8, 10, 10\n\nNow find the number in the middle.\n\n7, 8, 8, 10, 10\n\nThe number in the middle is 8.\n\nThe median is 8.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 8,
+        "split": "test"
+    },
+    "26549": {
+        "question": "Carson wrote down how many glasses of water he drank during the past 5 days. What is the median of the numbers?",
+        "choices": null,
+        "answer": "7",
+        "unit": null,
+        "table_title": "Glasses of water",
+        "table": "Day | Number of glasses\nSaturday | 9\nSunday | 2\nMonday | 9\nTuesday | 4\nWednesday | 7",
+        "table_for_pd": {
+            "Day": [
+                "Saturday",
+                "Sunday",
+                "Monday",
+                "Tuesday",
+                "Wednesday"
+            ],
+            "Number of glasses": [
+                "9",
+                "2",
+                "9",
+                "4",
+                "7"
+            ]
+        },
+        "row_num": 6,
+        "column_num": 2,
+        "solution": "Read the numbers from the table.\n\n9, 2, 9, 4, 7\n\nFirst, arrange the numbers from least to greatest:\n\n2, 4, 7, 9, 9\n\nNow find the number in the middle.\n\n2, 4, 7, 9, 9\n\nThe number in the middle is 7.\n\nThe median is 7.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 7,
+        "split": "test"
+    },
+    "10872": {
+        "question": "A baseball player paid attention to how many baseballs he hit in practice each day. What is the median of the numbers?",
+        "choices": null,
+        "answer": "7",
+        "unit": null,
+        "table_title": "Baseballs hit",
+        "table": "Day | Number of baseballs\nThursday | 5\nFriday | 5\nSaturday | 7\nSunday | 8\nMonday | 9",
+        "table_for_pd": {
+            "Day": [
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+                "Monday"
+            ],
+            "Number of baseballs": [
+                "5",
+                "5",
+                "7",
+                "8",
+                "9"
+            ]
+        },
+        "row_num": 6,
+        "column_num": 2,
+        "solution": "Read the numbers from the table.\n\n5, 5, 7, 8, 9\n\nFirst, arrange the numbers from least to greatest:\n\n5, 5, 7, 8, 9\n\nNow find the number in the middle.\n\n5, 5, 7, 8, 9\n\nThe number in the middle is 7.\n\nThe median is 7.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 6,
+        "split": "test"
+    },
+    "17250": {
+        "question": "A garden supply store kept track of how many lawn mowers it sold in the past 5 days. What is the median of the numbers?",
+        "choices": null,
+        "answer": "9",
+        "unit": null,
+        "table_title": "Lawn mowers sold",
+        "table": "Day | Number of lawn mowers\nThursday | 3\nFriday | 9\nSaturday | 10\nSunday | 6\nMonday | 9",
+        "table_for_pd": {
+            "Day": [
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+                "Monday"
+            ],
+            "Number of lawn mowers": [
+                "3",
+                "9",
+                "10",
+                "6",
+                "9"
+            ]
+        },
+        "row_num": 6,
+        "column_num": 2,
+        "solution": "Read the numbers from the table.\n\n3, 9, 10, 6, 9\n\nFirst, arrange the numbers from least to greatest:\n\n3, 6, 9, 9, 10\n\nNow find the number in the middle.\n\n3, 6, 9, 9, 10\n\nThe number in the middle is 9.\n\nThe median is 9.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 6,
+        "split": "test"
+    },
+    "23013": {
+        "question": "Katie has $1.96. How much money will Katie have left if she buys an elastic band and a roll of electrical tape?",
+        "choices": null,
+        "answer": "0.78",
+        "unit": "$",
+        "table_title": null,
+        "table": "brass clip | $0.21\nsmall metal hook | $0.98\npiece of plastic pipe | $0.29\nroll of electrical tape | $0.33\nelastic band | $0.85\nflat-head bolt | $0.47",
+        "table_for_pd": {
+            "Column 1": [
+                "brass clip",
+                "small metal hook",
+                "piece of plastic pipe",
+                "roll of electrical tape",
+                "elastic band",
+                "flat-head bolt"
+            ],
+            "Column 2": [
+                "$0.21",
+                "$0.98",
+                "$0.29",
+                "$0.33",
+                "$0.85",
+                "$0.47"
+            ]
+        },
+        "row_num": 6,
+        "column_num": 2,
+        "solution": "Find the total cost of an elastic band and a roll of electrical tape.\n\n$0.85 + $0.33 = $1.18\n\nNow subtract the total cost from the starting amount.\n\n$1.96 - $1.18 = $0.78\n\nKatie will have $0.78 left.",
+        "ques_type": "free_text",
+        "ans_type": "decimal_number",
+        "grade": 4,
+        "split": "test"
+    },
+    "17497": {
+        "question": "The gym teacher wrote down how many tennis balls his students hit in half an hour. What is the median of the numbers?",
+        "choices": null,
+        "answer": "61",
+        "unit": null,
+        "table_title": "Hitting tennis balls",
+        "table": "Name | Number of tennis balls\nCarla | 65\nLeroy | 65\nKenji | 57\nShawna | 61\nAngie | 61",
+        "table_for_pd": {
+            "Name": [
+                "Carla",
+                "Leroy",
+                "Kenji",
+                "Shawna",
+                "Angie"
+            ],
+            "Number of tennis balls": [
+                "65",
+                "65",
+                "57",
+                "61",
+                "61"
+            ]
+        },
+        "row_num": 6,
+        "column_num": 2,
+        "solution": "Read the numbers from the table.\n\n65, 65, 57, 61, 61\n\nFirst, arrange the numbers from least to greatest:\n\n57, 61, 61, 65, 65\n\nNow find the number in the middle.\n\n57, 61, 61, 65, 65\n\nThe number in the middle is 61.\n\nThe median is 61.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 5,
+        "split": "test"
+    },
+    "37992": {
+        "question": "Lena has $0.13. How much money will Lena have left if she buys a shapes stencil and a green bouncy ball?",
+        "choices": null,
+        "answer": "0.01",
+        "unit": "$",
+        "table_title": null,
+        "table": "blue plastic block | $0.06\ncolorful pinwheel | $0.08\ngreen marble | $0.02\nshapes stencil | $0.08\ngreen bouncy ball | $0.04\nwooden block | $0.03",
+        "table_for_pd": {
+            "Column 1": [
+                "blue plastic block",
+                "colorful pinwheel",
+                "green marble",
+                "shapes stencil",
+                "green bouncy ball",
+                "wooden block"
+            ],
+            "Column 2": [
+                "$0.06",
+                "$0.08",
+                "$0.02",
+                "$0.08",
+                "$0.04",
+                "$0.03"
+            ]
+        },
+        "row_num": 6,
+        "column_num": 2,
+        "solution": "Find the total cost of a shapes stencil and a green bouncy ball.\n\n$0.08 + $0.04 = $0.12\n\nNow subtract the total cost from the starting amount.\n\n$0.13 - $0.12 = $0.01\n\nLena will have $0.01 left.",
+        "ques_type": "free_text",
+        "ans_type": "decimal_number",
+        "grade": 5,
+        "split": "test"
+    },
+    "23778": {
+        "question": "A furniture store kept a record of how many couches it sold each day. What is the median of the numbers?",
+        "choices": null,
+        "answer": "7",
+        "unit": null,
+        "table_title": "Couches sold",
+        "table": "Day | Number of couches\nFriday | 5\nSaturday | 4\nSunday | 10\nMonday | 9\nTuesday | 7",
+        "table_for_pd": {
+            "Day": [
+                "Friday",
+                "Saturday",
+                "Sunday",
+                "Monday",
+                "Tuesday"
+            ],
+            "Number of couches": [
+                "5",
+                "4",
+                "10",
+                "9",
+                "7"
+            ]
+        },
+        "row_num": 6,
+        "column_num": 2,
+        "solution": "Read the numbers from the table.\n\n5, 4, 10, 9, 7\n\nFirst, arrange the numbers from least to greatest:\n\n4, 5, 7, 9, 10\n\nNow find the number in the middle.\n\n4, 5, 7, 9, 10\n\nThe number in the middle is 7.\n\nThe median is 7.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 8,
+        "split": "test"
+    },
+    "12746": {
+        "question": "Kendra has $0.19. How much money will Kendra have left if she buys a piece of green slate and a piece of fool's gold?",
+        "choices": null,
+        "answer": "0.07",
+        "unit": "$",
+        "table_title": null,
+        "table": "quartz crystal | $0.05\nsmooth piece of marble | $0.06\npiece of fool's gold | $0.03\norange agate | $0.05\npiece of polished granite | $0.08\npiece of green slate | $0.09",
+        "table_for_pd": {
+            "Column 1": [
+                "quartz crystal",
+                "smooth piece of marble",
+                "piece of fool's gold",
+                "orange agate",
+                "piece of polished granite",
+                "piece of green slate"
+            ],
+            "Column 2": [
+                "$0.05",
+                "$0.06",
+                "$0.03",
+                "$0.05",
+                "$0.08",
+                "$0.09"
+            ]
+        },
+        "row_num": 6,
+        "column_num": 2,
+        "solution": "Find the total cost of a piece of green slate and a piece of fool's gold.\n\n$0.09 + $0.03 = $0.12\n\nNow subtract the total cost from the starting amount.\n\n$0.19 - $0.12 = $0.07\n\nKendra will have $0.07 left.",
+        "ques_type": "free_text",
+        "ans_type": "decimal_number",
+        "grade": 4,
+        "split": "test"
+    },
+    "26539": {
+        "question": "A hot dog stand kept track of the number of hot dogs sold each day. What is the median of the numbers?",
+        "choices": null,
+        "answer": "16",
+        "unit": null,
+        "table_title": "Hot dogs sold",
+        "table": "Day | Number of hot dogs\nSaturday | 17\nSunday | 12\nMonday | 20\nTuesday | 10\nWednesday | 16",
+        "table_for_pd": {
+            "Day": [
+                "Saturday",
+                "Sunday",
+                "Monday",
+                "Tuesday",
+                "Wednesday"
+            ],
+            "Number of hot dogs": [
+                "17",
+                "12",
+                "20",
+                "10",
+                "16"
+            ]
+        },
+        "row_num": 6,
+        "column_num": 2,
+        "solution": "Read the numbers from the table.\n\n17, 12, 20, 10, 16\n\nFirst, arrange the numbers from least to greatest:\n\n10, 12, 16, 17, 20\n\nNow find the number in the middle.\n\n10, 12, 16, 17, 20\n\nThe number in the middle is 16.\n\nThe median is 16.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 5,
+        "split": "test"
+    },
+    "36806": {
+        "question": "Elena has $677. Does she have enough to buy a night's stay at Oceanspray Inn and a night's stay at Summit Hotel and Spa?",
+        "choices": [
+            "yes",
+            "no"
+        ],
+        "answer": "yes",
+        "unit": null,
+        "table_title": null,
+        "table": "night's stay at White Oak Motel | $225\nnight's stay at Mahogany Lodge | $209\nnight's stay at Oceanspray Inn | $483\nnight's stay at Summit Hotel and Spa | $168\nnight's stay at Lakeview Hotel | $851\nnight's stay at Hotel Marie | $470",
+        "table_for_pd": {
+            "Column 1": [
+                "night's stay at White Oak Motel",
+                "night's stay at Mahogany Lodge",
+                "night's stay at Oceanspray Inn",
+                "night's stay at Summit Hotel and Spa",
+                "night's stay at Lakeview Hotel",
+                "night's stay at Hotel Marie"
+            ],
+            "Column 2": [
+                "$225",
+                "$209",
+                "$483",
+                "$168",
+                "$851",
+                "$470"
+            ]
+        },
+        "row_num": 6,
+        "column_num": 2,
+        "solution": "Add the price of a night's stay at Oceanspray Inn and the price of a night's stay at Summit Hotel and Spa:\n\n$483 + $168 = $651\n\n$651 is less than $677. Elena does have enough money.",
+        "ques_type": "multi_choice",
+        "ans_type": "boolean_text",
+        "grade": 7,
+        "split": "test"
+    },
+    "21932": {
+        "question": "Teachers at Dover Elementary School asked students to name their favorite desserts. What fraction of the votes were for frozen yogurt? Simplify your answer.",
+        "choices": null,
+        "answer": "35/129",
+        "unit": null,
+        "table_title": "Favorite desserts",
+        "table": "Dessert | Votes\nPudding | 310\nCookies | 270\nBrownies | 120\nFrozen yogurt | 350\nOther | 240",
+        "table_for_pd": {
+            "Dessert": [
+                "Pudding",
+                "Cookies",
+                "Brownies",
+                "Frozen yogurt",
+                "Other"
+            ],
+            "Votes": [
+                "310",
+                "270",
+                "120",
+                "350",
+                "240"
+            ]
+        },
+        "row_num": 6,
+        "column_num": 2,
+        "solution": "Find how many students voted for frozen yogurt.\n\n350\n\nFind how many votes there were in total.\n\n310 + 270 + 120 + 350 + 240 = 1,290\n\nDivide 350 by1,290.\n\n\\frac{350}{1,290}\n\nReduce the fraction.\n\n\\frac{350}{1,290} → \\frac{35}{129}\n\n\\frac{35}{129} of students voted for frozen yogurt.",
+        "ques_type": "free_text",
+        "ans_type": "decimal_number",
+        "grade": 7,
+        "split": "test"
+    },
+    "33956": {
+        "question": "The owner of a plant nursery wrote down the number of roses on each bush. How many bushes have at least 41 roses?",
+        "choices": null,
+        "answer": "9",
+        "unit": "bushes",
+        "table_title": "Roses per bush",
+        "table": "Stem | Leaf \n4 | 0, 0, 1, 4\n5 | 0, 8\n6 | 8\n7 | 6, 8\n8 | 7, 7",
+        "table_for_pd": {
+            "Stem": [
+                "4",
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "Leaf ": [
+                "0, 0, 1, 4",
+                "0, 8",
+                "8",
+                "6, 8",
+                "7, 7"
+            ]
+        },
+        "row_num": 6,
+        "column_num": 2,
+        "solution": "Find the row with stem 4. Count all the leaves greater than or equal to 1.\n\nCount all the leaves in the rows with stems 5, 6, 7, and 8.\n\nYou counted 9 leaves, which are blue in the stem-and-leaf plots above. 9 bushes have at least 41 roses.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 6,
+        "split": "test"
+    },
+    "33943": {
+        "question": "Bruce wants to buy 5 kilograms of Pink Lady apples and 5 kilograms of Macintosh apples. How much will he spend?",
+        "choices": null,
+        "answer": "5.80",
+        "unit": "$",
+        "table_title": null,
+        "table": "Pink Lady apples | $0.47 per kilogram\nGala apples | $0.81 per kilogram\nFuji apples | $0.78 per kilogram\nCameo apples | $0.84 per kilogram\nMacintosh apples | $0.69 per kilogram\nWashington apples | $0.69 per kilogram",
+        "table_for_pd": {
+            "Column 1": [
+                "Pink Lady apples",
+                "Gala apples",
+                "Fuji apples",
+                "Cameo apples",
+                "Macintosh apples",
+                "Washington apples"
+            ],
+            "Column 2": [
+                "$0.47 per kilogram",
+                "$0.81 per kilogram",
+                "$0.78 per kilogram",
+                "$0.84 per kilogram",
+                "$0.69 per kilogram",
+                "$0.69 per kilogram"
+            ]
+        },
+        "row_num": 6,
+        "column_num": 2,
+        "solution": "Find the cost of the Pink Lady apples. Multiply:\n\n$0.47 × 5 = $2.35\n\nFind the cost of the Macintosh apples. Multiply:\n\n$0.69 × 5 = $3.45\n\nNow find the total cost by adding:\n\n$2.35 + $3.45 = $5.80\n\nHe will spend $5.80.",
+        "ques_type": "free_text",
+        "ans_type": "decimal_number",
+        "grade": 7,
+        "split": "test"
+    },
+    "21823": {
+        "question": "Franklin has $128. Does he have enough to buy a program signed by a famous dancer and a jersey signed by a famous hockey player?",
+        "choices": [
+            "yes",
+            "no"
+        ],
+        "answer": "no",
+        "unit": null,
+        "table_title": null,
+        "table": "jersey signed by a famous hockey player | $99\nbook signed by a famous author | $78\nDVD signed by a famous comedian | $29\nskate signed by a famous figure skater | $88\nphotograph signed by a famous race car driver | $23\nprogram signed by a famous dancer | $37",
+        "table_for_pd": {
+            "Column 1": [
+                "jersey signed by a famous hockey player",
+                "book signed by a famous author",
+                "DVD signed by a famous comedian",
+                "skate signed by a famous figure skater",
+                "photograph signed by a famous race car driver",
+                "program signed by a famous dancer"
+            ],
+            "Column 2": [
+                "$99",
+                "$78",
+                "$29",
+                "$88",
+                "$23",
+                "$37"
+            ]
+        },
+        "row_num": 6,
+        "column_num": 2,
+        "solution": "Add the price of a program signed by a famous dancer and the price of a jersey signed by a famous hockey player:\n\n$37 + $99 = $136\n\n$136 is more than $128. Franklin does not have enough money.",
+        "ques_type": "multi_choice",
+        "ans_type": "boolean_text",
+        "grade": 7,
+        "split": "test"
+    },
+    "34261": {
+        "question": "The parks department compared how many basketball hoops there are at each park. What is the range of the numbers?",
+        "choices": null,
+        "answer": "6",
+        "unit": null,
+        "table_title": "Basketball hoops",
+        "table": "Park | Number of basketball hoops\nCrestview Park | 7\nMooreland Park | 4\nOtter Park | 4\nWestfield Park | 4\nKelly Park | 10",
+        "table_for_pd": {
+            "Park": [
+                "Crestview Park",
+                "Mooreland Park",
+                "Otter Park",
+                "Westfield Park",
+                "Kelly Park"
+            ],
+            "Number of basketball hoops": [
+                "7",
+                "4",
+                "4",
+                "4",
+                "10"
+            ]
+        },
+        "row_num": 6,
+        "column_num": 2,
+        "solution": "Read the numbers from the table.\n\n7, 4, 4, 4, 10\n\nFirst, find the greatest number. The greatest number is 10.\n\nNext, find the least number. The least number is 4.\n\nSubtract the least number from the greatest number:\n\n10 − 4 = 6\n\nThe range is 6.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 7,
+        "split": "test"
+    },
+    "2872": {
+        "question": "How much money does Shawna need to buy 8 tickets for a Hawaiian cruise and 2 tickets for a Mediterranean cruise?",
+        "choices": null,
+        "answer": "17,578",
+        "unit": "$",
+        "table_title": null,
+        "table": "ticket for a Mediterranean cruise | $3,541.00\nticket for a Caribbean cruise | $6,376.00\nticket for a Mexican cruise | $5,404.00\nticket for an Australian cruise | $2,576.00\nticket for a Hawaiian cruise | $1,312.00\nticket for an Alaskan cruise | $3,774.00",
+        "table_for_pd": {
+            "Column 1": [
+                "ticket for a Mediterranean cruise",
+                "ticket for a Caribbean cruise",
+                "ticket for a Mexican cruise",
+                "ticket for an Australian cruise",
+                "ticket for a Hawaiian cruise",
+                "ticket for an Alaskan cruise"
+            ],
+            "Column 2": [
+                "$3,541.00",
+                "$6,376.00",
+                "$5,404.00",
+                "$2,576.00",
+                "$1,312.00",
+                "$3,774.00"
+            ]
+        },
+        "row_num": 6,
+        "column_num": 2,
+        "solution": "Find the cost of 8 tickets for a Hawaiian cruise.\n\n$1,312.00 × 8 = $10,496.00\n\nFind the cost of 2 tickets for a Mediterranean cruise.\n\n$3,541.00 × 2 = $7,082.00\n\nNow find the total cost.\n\n$10,496.00 + $7,082.00 = $17,578.00\n\nShawna needs $17,578.00.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 7,
+        "split": "test"
+    },
+    "8970": {
+        "question": "Wanda went on a camping trip and logged the number of miles she hiked each day. What is the median of the numbers?",
+        "choices": null,
+        "answer": "9",
+        "unit": null,
+        "table_title": "Miles hiked",
+        "table": "Day | Number of miles\nSunday | 10\nMonday | 9\nTuesday | 10\nWednesday | 5\nThursday | 9",
+        "table_for_pd": {
+            "Day": [
+                "Sunday",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+            ],
+            "Number of miles": [
+                "10",
+                "9",
+                "10",
+                "5",
+                "9"
+            ]
+        },
+        "row_num": 6,
+        "column_num": 2,
+        "solution": "Read the numbers from the table.\n\n10, 9, 10, 5, 9\n\nFirst, arrange the numbers from least to greatest:\n\n5, 9, 9, 10, 10\n\nNow find the number in the middle.\n\n5, 9, 9, 10, 10\n\nThe number in the middle is 9.\n\nThe median is 9.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 8,
+        "split": "test"
+    },
+    "20407": {
+        "question": "A pizza delivery driver paid attention to how many pizzas he delivered over the past 5 days. What is the median of the numbers?",
+        "choices": null,
+        "answer": "29",
+        "unit": null,
+        "table_title": "Pizzas delivered",
+        "table": "Day | Number of pizzas\nThursday | 26\nFriday | 29\nSaturday | 29\nSunday | 31\nMonday | 32",
+        "table_for_pd": {
+            "Day": [
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+                "Monday"
+            ],
+            "Number of pizzas": [
+                "26",
+                "29",
+                "29",
+                "31",
+                "32"
+            ]
+        },
+        "row_num": 6,
+        "column_num": 2,
+        "solution": "Read the numbers from the table.\n\n26, 29, 29, 31, 32\n\nFirst, arrange the numbers from least to greatest:\n\n26, 29, 29, 31, 32\n\nNow find the number in the middle.\n\n26, 29, 29, 31, 32\n\nThe number in the middle is 29.\n\nThe median is 29.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 5,
+        "split": "test"
+    },
+    "5257": {
+        "question": "Mitchell went to the store. He bought 3 kilograms of spelt rolls and 1 kilogram of hot dog buns. How much did he spend?",
+        "choices": null,
+        "answer": "31.49",
+        "unit": "$",
+        "table_title": null,
+        "table": "spelt rolls | $8.13/kilogram\nhamburger buns | $4.22/kilogram\ntortillas | $4.87/kilogram\nwheat rolls | $7.77/kilogram\nhot dog buns | $7.10/kilogram\nrye rolls | $5.94/kilogram",
+        "table_for_pd": {
+            "Column 1": [
+                "spelt rolls",
+                "hamburger buns",
+                "tortillas",
+                "wheat rolls",
+                "hot dog buns",
+                "rye rolls"
+            ],
+            "Column 2": [
+                "$8.13/kilogram",
+                "$4.22/kilogram",
+                "$4.87/kilogram",
+                "$7.77/kilogram",
+                "$7.10/kilogram",
+                "$5.94/kilogram"
+            ]
+        },
+        "row_num": 6,
+        "column_num": 2,
+        "solution": "Find the cost of the spelt rolls. Multiply:\n\n$8.13 × 3 = $24.39\n\nFind the cost of the hot dog buns. Multiply:\n\n$7.10 × 1 = $7.10\n\nNow find the total cost by adding:\n\n$24.39 + $7.10 = $31.49\n\nHe spent $31.49.",
+        "ques_type": "free_text",
+        "ans_type": "decimal_number",
+        "grade": 8,
+        "split": "test"
+    },
+    "25077": {
+        "question": "A veterinarian in Oakland treats a number of different kinds of animals every year. What fraction of pets treated were rabbits? Simplify your answer.",
+        "choices": null,
+        "answer": "91/318",
+        "unit": null,
+        "table_title": "Pets treated by the vet",
+        "table": "Pet | Number of cases\nRodents | 670\nCats | 340\nRabbits | 910\nReptiles | 810\nOther | 450",
+        "table_for_pd": {
+            "Pet": [
+                "Rodents",
+                "Cats",
+                "Rabbits",
+                "Reptiles",
+                "Other"
+            ],
+            "Number of cases": [
+                "670",
+                "340",
+                "910",
+                "810",
+                "450"
+            ]
+        },
+        "row_num": 6,
+        "column_num": 2,
+        "solution": "Find how many rabbits were treated.\n\n910\n\nFind how many pets were treated in total.\n\n670 + 340 + 910 + 810 + 450 = 3,180\n\nDivide 910 by 3,180.\n\n\\frac{910}{3,180}\n\nReduce the fraction.\n\n\\frac{910}{3,180} → \\frac{91}{318}\n\n\\frac{91}{318} of rabbits were treated.",
+        "ques_type": "free_text",
+        "ans_type": "decimal_number",
+        "grade": 7,
+        "split": "test"
+    },
+    "19748": {
+        "question": "Ezra went on a vacation to an amusement park and counted how many rides he went on each day. What is the mean of the numbers?",
+        "choices": null,
+        "answer": "6",
+        "unit": null,
+        "table_title": "Amusement park rides",
+        "table": "Day | Number of rides\nMonday | 4\nTuesday | 6\nWednesday | 6\nThursday | 4\nFriday | 9\nSaturday | 8\nSunday | 5",
+        "table_for_pd": {
+            "Day": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "Number of rides": [
+                "4",
+                "6",
+                "6",
+                "4",
+                "9",
+                "8",
+                "5"
+            ]
+        },
+        "row_num": 8,
+        "column_num": 2,
+        "solution": "Read the numbers from the table.\n\n4, 6, 6, 4, 9, 8, 5\n\nFirst, count how many numbers are in the group.\n\nThere are 7 numbers.\n\nNow add all the numbers together:\n\n4 + 6 + 6 + 4 + 9 + 8 + 5 = 42\n\nNow divide the sum by the number of numbers:\n\n42 ÷ 7 = 6\n\nThe mean is 6.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 8,
+        "split": "test"
+    },
+    "10340": {
+        "question": "Use the data to answer the question below. Is the following statement about our solar system true or false? Neptune's volume is more than 50 times as great as that of Earth.",
+        "choices": [
+            "true",
+            "false"
+        ],
+        "answer": "true",
+        "unit": null,
+        "table_title": "Planet Volume (billions of km3) Primary composition",
+        "table": "Mercury | 60 rock\nVenus | 930 rock\nEarth | 1,090 rock\nMars | 160 rock\nJupiter | 1,431,280 gas\nSaturn | 827,130 gas\nUranus | 68,330 ice\nNeptune | 62,530 ice",
+        "table_for_pd": {
+            "Column 1": [
+                "Mercury",
+                "Venus",
+                "Earth",
+                "Mars",
+                "Jupiter",
+                "Saturn",
+                "Uranus",
+                "Neptune"
+            ],
+            "Column 2": [
+                "60 rock",
+                "930 rock",
+                "1,090 rock",
+                "160 rock",
+                "1,431,280 gas",
+                "827,130 gas",
+                "68,330 ice",
+                "62,530 ice"
+            ]
+        },
+        "row_num": 8,
+        "column_num": 2,
+        "solution": "To determine if this statement is true, calculate the value of 50 times the volume of Earth.\n\n50 · 1,090 billion km^3 = 54,500 billion km^3\n\nThen compare the result to the volume of Neptune. The volume of Neptune is 62,530 billion km^3, which is more than 54,500 billion km^3. So, Neptune's volume is more than 50 times as great as that of Earth.",
+        "ques_type": "multi_choice",
+        "ans_type": "boolean_text",
+        "grade": 6,
+        "split": "test"
+    },
+    "18090": {
+        "question": "The staff of a game show tracked the performance of all the contestants during the past season. How many people scored at least 34 points but fewer than 54 points?",
+        "choices": null,
+        "answer": "4",
+        "unit": null,
+        "table_title": "Game show scores",
+        "table": "Stem | Leaf \n1 | 0, 0, 1, 5, 7, 8\n2 | \n3 | 1, 2, 5\n4 | 6, 9\n5 | 2\n6 | \n7 | 1, 2, 3, 3, 6, 7",
+        "table_for_pd": {
+            "Stem": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7"
+            ],
+            "Leaf ": [
+                "0, 0, 1, 5, 7, 8",
+                "",
+                "1, 2, 5",
+                "6, 9",
+                "2",
+                "",
+                "1, 2, 3, 3, 6, 7"
+            ]
+        },
+        "row_num": 8,
+        "column_num": 2,
+        "solution": "Find the row with stem 3. Count all the leaves greater than or equal to 4.\n\nCount all the leaves in the row with stem 4.\n\nIn the row with stem 5, count all the leaves less than 4.\n\nYou counted 4 leaves, which are blue in the stem-and-leaf plots above. 4 people scored at least 34 points but fewer than 54 points.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 4,
+        "split": "test"
+    },
+    "36188": {
+        "question": "A reporter looked through her notebook to remember how many people she had interviewed in the past 7 days. What is the mean of the numbers?",
+        "choices": null,
+        "answer": "13",
+        "unit": null,
+        "table_title": "People interviewed",
+        "table": "Day | Number of people\nSunday | 19\nMonday | 12\nTuesday | 12\nWednesday | 21\nThursday | 8\nFriday | 7\nSaturday | 12",
+        "table_for_pd": {
+            "Day": [
+                "Sunday",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+            ],
+            "Number of people": [
+                "19",
+                "12",
+                "12",
+                "21",
+                "8",
+                "7",
+                "12"
+            ]
+        },
+        "row_num": 8,
+        "column_num": 2,
+        "solution": "Read the numbers from the table.\n\n19, 12, 12, 21, 8, 7, 12\n\nFirst, count how many numbers are in the group.\n\nThere are 7 numbers.\n\nNow add all the numbers together:\n\n19 + 12 + 12 + 21 + 8 + 7 + 12 = 91\n\nNow divide the sum by the number of numbers:\n\n91 ÷ 7 = 13\n\nThe mean is 13.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 5,
+        "split": "test"
+    },
+    "15524": {
+        "question": "An employee at the craft store counted the number of red buttons in each bag of mixed buttons. How many bags had at least 52 red buttons but fewer than 65 red buttons?",
+        "choices": null,
+        "answer": "3",
+        "unit": "bags",
+        "table_title": "Red buttons per bag",
+        "table": "Stem | Leaf \n0 | 0, 0, 2, 7\n1 | 1, 2, 7, 7, 9\n2 | 2, 2\n3 | 0, 0, 3, 3, 8, 8\n4 | 0, 3, 5\n5 | 5\n6 | 0, 3, 5, 7",
+        "table_for_pd": {
+            "Stem": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "Leaf ": [
+                "0, 0, 2, 7",
+                "1, 2, 7, 7, 9",
+                "2, 2",
+                "0, 0, 3, 3, 8, 8",
+                "0, 3, 5",
+                "5",
+                "0, 3, 5, 7"
+            ]
+        },
+        "row_num": 8,
+        "column_num": 2,
+        "solution": "Find the row with stem 5. Count all the leaves greater than or equal to 2.\n\nIn the row with stem 6, count all the leaves less than 5.\n\nYou counted 3 leaves, which are blue in the stem-and-leaf plots above. 3 bags had at least 52 red buttons but fewer than 65 red buttons.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 5,
+        "split": "test"
+    },
+    "11216": {
+        "question": "During Fitness Day at school, Katie and her classmates took part in a pull-up competition, keeping track of the results. What is the smallest number of pull-ups done?",
+        "choices": null,
+        "answer": "10",
+        "unit": "pull-ups",
+        "table_title": "Pull-up competition (number of pull-ups)",
+        "table": "Stem | Leaf \n1 | 0, 1\n2 | 4, 7\n3 | \n4 | 4, 7, 8\n5 | 2, 3, 3, 7\n6 | 1, 3\n7 | 6, 8\n8 | 5, 6",
+        "table_for_pd": {
+            "Stem": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "Leaf ": [
+                "0, 1",
+                "4, 7",
+                "",
+                "4, 7, 8",
+                "2, 3, 3, 7",
+                "1, 3",
+                "6, 8",
+                "5, 6"
+            ]
+        },
+        "row_num": 9,
+        "column_num": 2,
+        "solution": "Look at the first row of the stem-and-leaf plot. The first row has the lowest stem. The stem for the first row is 1.\n\nNow find the lowest leaf in the first row. The lowest leaf is 0.\n\nThe smallest number of pull-ups done has a stem of 1 and a leaf of 0. Write the stem first, then the leaf: 10.\n\nThe smallest number of pull-ups done is 10 pull-ups.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 4,
+        "split": "test"
+    },
+    "3773": {
+        "question": "Use the data to answer the question below. Is the following statement about our solar system true or false? The volume of Earth is more than ten times the volume of Mercury.",
+        "choices": [
+            "true",
+            "false"
+        ],
+        "answer": "true",
+        "unit": null,
+        "table_title": "Planet Volume (km3) Primary composition",
+        "table": "Mercury | 6.08 x | 1010 rock\nVenus | 9.28 x | 1011 rock\nEarth | 1.08 x | 1012 rock\nMars | 1.63 x | 1011 rock\nJupiter | 1.43 x | 1015 gas\nSaturn | 8.27 x | 1014 gas\nUranus | 6.83 x | 1013 ice\nNeptune | 6.25 x | 1013 ice",
+        "table_for_pd": {
+            "Column 1": [
+                "Mercury",
+                "Venus",
+                "Earth",
+                "Mars",
+                "Jupiter",
+                "Saturn",
+                "Uranus",
+                "Neptune"
+            ],
+            "Column 2": [
+                "6.08 x",
+                "9.28 x",
+                "1.08 x",
+                "1.63 x",
+                "1.43 x",
+                "8.27 x",
+                "6.83 x",
+                "6.25 x"
+            ],
+            "Column 3": [
+                "1010 rock",
+                "1011 rock",
+                "1012 rock",
+                "1011 rock",
+                "1015 gas",
+                "1014 gas",
+                "1013 ice",
+                "1013 ice"
+            ]
+        },
+        "row_num": 8,
+        "column_num": 3,
+        "solution": "To determine if this statement is true, calculate the value of ten times the volume of Mercury.\n\n6.08 x10^10 · 10^1\n = 6.08 x10^11 km^3\n\nThen compare the result to the volume of Earth. The volume of Earth is 1.08 x10^12 km^3, which is greater than 6.08 x10^11 km^3. So, the volume of Earth is more than ten times the volume of Mercury.",
+        "ques_type": "multi_choice",
+        "ans_type": "boolean_text",
+        "grade": 8,
+        "split": "test"
+    },
+    "6194": {
+        "question": "The members of the local garden club tallied the number of plants in each person's garden. How many gardens have at least 22 plants but fewer than 41 plants?",
+        "choices": null,
+        "answer": "2",
+        "unit": "gardens",
+        "table_title": "Plants per garden",
+        "table": "Stem | Leaf \n1 | 2, 2, 3\n2 | \n3 | 0, 0\n4 | 2, 8, 9\n5 | 6\n6 | 0\n7 | \n8 | 5, 6",
+        "table_for_pd": {
+            "Stem": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "Leaf ": [
+                "2, 2, 3",
+                "",
+                "0, 0",
+                "2, 8, 9",
+                "6",
+                "0",
+                "",
+                "5, 6"
+            ]
+        },
+        "row_num": 9,
+        "column_num": 2,
+        "solution": "Find the row with stem 2. Count all the leaves greater than or equal to 2.\n\nCount all the leaves in the row with stem 3.\n\nIn the row with stem 4, count all the leaves less than 1.\n\nYou counted 2 leaves, which are blue in the stem-and-leaf plots above. 2 gardens have at least 22 plants but fewer than 41 plants.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 8,
+        "split": "test"
+    },
+    "24982": {
+        "question": "Miss Blackburn ran a sit-up competition among her P.E. students and monitored how many sit-ups each students could do. What is the smallest number of sit-ups done?",
+        "choices": null,
+        "answer": "11",
+        "unit": "sit-ups",
+        "table_title": "Sit-up competition (number of sit-ups)",
+        "table": "Stem | Leaf \n1 | 1, 9\n2 | 0, 2\n3 | 0, 1, 4, 5, 7, 8\n4 | 4\n5 | 5\n6 | 1, 7\n7 | 2, 9\n8 | 3, 3, 4, 8\n9 | 0",
+        "table_for_pd": {
+            "Stem": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "Leaf ": [
+                "1, 9",
+                "0, 2",
+                "0, 1, 4, 5, 7, 8",
+                "4",
+                "5",
+                "1, 7",
+                "2, 9",
+                "3, 3, 4, 8",
+                "0"
+            ]
+        },
+        "row_num": 10,
+        "column_num": 2,
+        "solution": "Look at the first row of the stem-and-leaf plot. The first row has the lowest stem. The stem for the first row is 1.\n\nNow find the lowest leaf in the first row. The lowest leaf is 1.\n\nThe smallest number of sit-ups done has a stem of 1 and a leaf of 1. Write the stem first, then the leaf: 11.\n\nThe smallest number of sit-ups done is 11 sit-ups.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 4,
+        "split": "test"
+    },
+    "36363": {
+        "question": "Charlotte counted the number of pairs of shoes for sale at each of the shoe stores in the mall. What is the smallest number of pairs of shoes?",
+        "choices": null,
+        "answer": "19",
+        "unit": "pairs of shoes",
+        "table_title": "Pairs of shoes per store",
+        "table": "Stem | Leaf \n1 | 9\n2 | 5\n3 | 3, 8, 9\n4 | 3, 8\n5 | 0, 8, 9\n6 | 6\n7 | 9\n8 | 3, 4, 7",
+        "table_for_pd": {
+            "Stem": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "Leaf ": [
+                "9",
+                "5",
+                "3, 8, 9",
+                "3, 8",
+                "0, 8, 9",
+                "6",
+                "9",
+                "3, 4, 7"
+            ]
+        },
+        "row_num": 9,
+        "column_num": 2,
+        "solution": "Look at the first row of the stem-and-leaf plot. The first row has the lowest stem. The stem for the first row is 1.\n\nNow find the lowest leaf in the first row. The lowest leaf is 9.\n\nThe smallest number of pairs of shoes has a stem of 1 and a leaf of 9. Write the stem first, then the leaf: 19.\n\nThe smallest number of pairs of shoes is 19 pairs of shoes.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 4,
+        "split": "test"
+    },
+    "21356": {
+        "question": "The staff of a game show tracked the performance of all the contestants during the past season. How many people scored at least 45 points but fewer than 70 points?",
+        "choices": null,
+        "answer": "6",
+        "unit": "people",
+        "table_title": "Game show scores",
+        "table": "Stem | Leaf \n1 | 1, 4\n2 | 1, 1, 2, 2, 4, 7\n3 | 2, 2, 6, 9\n4 | 0, 3\n5 | 0, 1, 5, 9\n6 | 1, 6\n7 | 1, 3, 5, 6\n8 | 4",
+        "table_for_pd": {
+            "Stem": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "Leaf ": [
+                "1, 4",
+                "1, 1, 2, 2, 4, 7",
+                "2, 2, 6, 9",
+                "0, 3",
+                "0, 1, 5, 9",
+                "1, 6",
+                "1, 3, 5, 6",
+                "4"
+            ]
+        },
+        "row_num": 9,
+        "column_num": 2,
+        "solution": "Find the row with stem 4. Count all the leaves greater than or equal to 5.\n\nCount all the leaves in the rows with stems 5 and 6.\n\nYou counted 6 leaves, which are blue in the stem-and-leaf plots above. 6 people scored at least 45 points but fewer than 70 points.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 8,
+        "split": "test"
+    },
+    "18087": {
+        "question": "Juan's P.E. class participated in a push-up competition, and Juan wrote down how many push-ups each person could do. What is the largest number of push-ups done?",
+        "choices": null,
+        "answer": "84",
+        "unit": "push-ups",
+        "table_title": "Push-up competition (number of push-ups)",
+        "table": "Stem | Leaf \n1 | 1, 6, 7, 7\n2 | 0, 7\n3 | \n4 | \n5 | 5, 6, 9\n6 | \n7 | 0, 1, 2\n8 | 3, 4",
+        "table_for_pd": {
+            "Stem": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "Leaf ": [
+                "1, 6, 7, 7",
+                "0, 7",
+                "",
+                "",
+                "5, 6, 9",
+                "",
+                "0, 1, 2",
+                "3, 4"
+            ]
+        },
+        "row_num": 9,
+        "column_num": 2,
+        "solution": "Look at the last row of the stem-and-leaf plot. The last row has the highest stem. The stem for the last row is 8.\n\nNow find the highest leaf in the last row. The highest leaf is 4.\n\nThe largest number of push-ups done has a stem of 8 and a leaf of 4. Write the stem first, then the leaf: 84.\n\nThe largest number of push-ups done is 84 push-ups.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 4,
+        "split": "test"
+    },
+    "35008": {
+        "question": "A food critic counted the number of menu items at each restaurant in town. How many restaurants have at least 23 menu items but fewer than 53 menu items?",
+        "choices": null,
+        "answer": "2",
+        "unit": null,
+        "table_title": "Menu items per restaurant",
+        "table": "Stem | Leaf \n2 | 0\n3 | 5, 7\n4 | \n5 | 3, 7, 9\n6 | 1, 2, 6\n7 | 0, 5\n8 | 1, 2, 3, 7\n9 | 0",
+        "table_for_pd": {
+            "Stem": [
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "Leaf ": [
+                "0",
+                "5, 7",
+                "",
+                "3, 7, 9",
+                "1, 2, 6",
+                "0, 5",
+                "1, 2, 3, 7",
+                "0"
+            ]
+        },
+        "row_num": 9,
+        "column_num": 2,
+        "solution": "Find the row with stem 2. Count all the leaves greater than or equal to 3.\n\nCount all the leaves in the rows with stems 3 and 4.\n\nIn the row with stem 5, count all the leaves less than 3.\n\nYou counted 2 leaves, which are blue in the stem-and-leaf plots above. 2 restaurants have at least 23 menu items but fewer than 53 menu items.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 4,
+        "split": "test"
+    },
+    "18877": {
+        "question": "Jaylen counted the number of pairs of shoes for sale at each of the shoe stores in the mall. What is the smallest number of pairs of shoes?",
+        "choices": null,
+        "answer": "34",
+        "unit": "pairs of shoes",
+        "table_title": "Pairs of shoes per store",
+        "table": "Stem | Leaf \n3 | 4, 6, 8\n4 | 0, 7, 8\n5 | 1, 5, 9\n6 | 6, 6\n7 | 1, 1, 5, 9\n8 | 0, 6, 7, 7\n9 | 0, 0",
+        "table_for_pd": {
+            "Stem": [
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "Leaf ": [
+                "4, 6, 8",
+                "0, 7, 8",
+                "1, 5, 9",
+                "6, 6",
+                "1, 1, 5, 9",
+                "0, 6, 7, 7",
+                "0, 0"
+            ]
+        },
+        "row_num": 8,
+        "column_num": 2,
+        "solution": "Look at the first row of the stem-and-leaf plot. The first row has the lowest stem. The stem for the first row is 3.\n\nNow find the lowest leaf in the first row. The lowest leaf is 4.\n\nThe smallest number of pairs of shoes has a stem of 3 and a leaf of 4. Write the stem first, then the leaf: 34.\n\nThe smallest number of pairs of shoes is 34 pairs of shoes.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 7,
+        "split": "test"
+    },
+    "23964": {
+        "question": "The Winchester Chamber of Commerce researched the number of employees working at local companies. How many companies have at least 23 employees but less than 82 employees?",
+        "choices": null,
+        "answer": "10",
+        "unit": "companies",
+        "table_title": "Company sizes (number of employees)",
+        "table": "Stem | Leaf \n1 | 5\n2 | 0, 1, 4, 8\n3 | 1, 4\n4 | 1, 3, 5, 8\n5 | 1\n6 | 7\n7 | \n8 | 3, 4, 9\n9 | 0",
+        "table_for_pd": {
+            "Stem": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "Leaf ": [
+                "5",
+                "0, 1, 4, 8",
+                "1, 4",
+                "1, 3, 5, 8",
+                "1",
+                "7",
+                "",
+                "3, 4, 9",
+                "0"
+            ]
+        },
+        "row_num": 10,
+        "column_num": 2,
+        "solution": "Find the row with stem 2. Count all the leaves greater than or equal to 3.\n\nCount all the leaves in the rows with stems 3, 4, 5, 6, and 7.\n\nIn the row with stem 8, count all the leaves less than 2.\n\nYou counted 10 leaves, which are blue in the stem-and-leaf plots above. 10 companies have at least 23 employees but less than 82 employees.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 6,
+        "split": "test"
+    },
+    "14170": {
+        "question": "Aaliyah went on a vacation to an amusement park and counted how many rides she went on each day. What is the median of the numbers?",
+        "choices": null,
+        "answer": "8",
+        "unit": null,
+        "table_title": "Amusement park rides",
+        "table": "Day | Number of rides\nSaturday | 6\nSunday | 9\nMonday | 8\nTuesday | 8\nWednesday | 9\nThursday | 10\nFriday | 7",
+        "table_for_pd": {
+            "Day": [
+                "Saturday",
+                "Sunday",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+            ],
+            "Number of rides": [
+                "6",
+                "9",
+                "8",
+                "8",
+                "9",
+                "10",
+                "7"
+            ]
+        },
+        "row_num": 8,
+        "column_num": 2,
+        "solution": "Read the numbers from the table.\n\n6, 9, 8, 8, 9, 10, 7\n\nFirst, arrange the numbers from least to greatest:\n\n6, 7, 8, 8, 9, 9, 10\n\nNow find the number in the middle.\n\n6, 7, 8, 8, 9, 9, 10\n\nThe number in the middle is 8.\n\nThe median is 8.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 7,
+        "split": "test"
+    },
+    "23473": {
+        "question": "The Princeton Chamber of Commerce researched the number of employees working at local companies. How many companies have at least 17 employees but less than 47 employees?",
+        "choices": null,
+        "answer": "6",
+        "unit": "companies",
+        "table_title": "Company sizes (number of employees)",
+        "table": "Stem | Leaf \n0 | 7\n1 | 0, 6\n2 | 1, 3, 6, 7, 7\n3 | \n4 | 3, 8\n5 | 2\n6 | 3, 4, 6\n7 | 2, 7, 8",
+        "table_for_pd": {
+            "Stem": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7"
+            ],
+            "Leaf ": [
+                "7",
+                "0, 6",
+                "1, 3, 6, 7, 7",
+                "",
+                "3, 8",
+                "2",
+                "3, 4, 6",
+                "2, 7, 8"
+            ]
+        },
+        "row_num": 9,
+        "column_num": 2,
+        "solution": "Find the row with stem 1. Count all the leaves greater than or equal to 7.\n\nCount all the leaves in the rows with stems 2 and 3.\n\nIn the row with stem 4, count all the leaves less than 7.\n\nYou counted 6 leaves, which are blue in the stem-and-leaf plots above. 6 companies have at least 17 employees but less than 47 employees.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 5,
+        "split": "test"
+    },
+    "22458": {
+        "question": "A food critic counted the number of menu items at each restaurant in town. How many restaurants have at least 57 menu items but fewer than 85 menu items?",
+        "choices": null,
+        "answer": "6",
+        "unit": "restaurants",
+        "table_title": "Menu items per restaurant",
+        "table": "Stem | Leaf \n1 | 2, 4\n2 | \n3 | 6, 6\n4 | 1, 5\n5 | 1, 2, 3\n6 | 1, 2, 5, 6, 7\n7 | 6\n8 | 7\n9 | 0",
+        "table_for_pd": {
+            "Stem": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "Leaf ": [
+                "2, 4",
+                "",
+                "6, 6",
+                "1, 5",
+                "1, 2, 3",
+                "1, 2, 5, 6, 7",
+                "6",
+                "7",
+                "0"
+            ]
+        },
+        "row_num": 10,
+        "column_num": 2,
+        "solution": "Find the row with stem 5. Count all the leaves greater than or equal to 7.\n\nCount all the leaves in the rows with stems 6 and 7.\n\nIn the row with stem 8, count all the leaves less than 5.\n\nYou counted 6 leaves, which are blue in the stem-and-leaf plots above. 6 restaurants have at least 57 menu items but fewer than 85 menu items.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 8,
+        "split": "test"
+    },
+    "21900": {
+        "question": "A concession stand worker at the movie theater looked up how many bags of popcorn were sold in the past 7 days. What is the mode of the numbers?",
+        "choices": null,
+        "answer": "3",
+        "unit": null,
+        "table_title": "Bags of popcorn sold",
+        "table": "Day | Number of bags of popcorn\nSunday | 5\nMonday | 1\nTuesday | 3\nWednesday | 5\nThursday | 3\nFriday | 3\nSaturday | 1",
+        "table_for_pd": {
+            "Day": [
+                "Sunday",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+            ],
+            "Number of bags of popcorn": [
+                "5",
+                "1",
+                "3",
+                "5",
+                "3",
+                "3",
+                "1"
+            ]
+        },
+        "row_num": 8,
+        "column_num": 2,
+        "solution": "Read the numbers from the table.\n\n5, 1, 3, 5, 3, 3, 1\n\nFirst, arrange the numbers from least to greatest:\n\n1, 1, 3, 3, 3, 5, 5\n\nNow count how many times each number appears.\n\n1 appears 2 times.\n3 appears 3 times.\n5 appears 2 times.\n\nThe number that appears most often is 3.\n\nThe mode is 3.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 7,
+        "split": "test"
+    },
+    "11233": {
+        "question": "Miss Perry ran a sit-up competition among her P.E. students and monitored how many sit-ups each students could do. How many people did at least 1 sit-up but fewer than 37 sit-ups?",
+        "choices": null,
+        "answer": "7",
+        "unit": "people",
+        "table_title": "Sit-up competition (number of sit-ups)",
+        "table": "Stem | Leaf \n0 | 0, 2, 6, 8\n1 | 7, 9, 9\n2 | 4\n3 | 7\n4 | 7\n5 | 5\n6 | 0, 1, 3\n7 | 0, 0, 2",
+        "table_for_pd": {
+            "Stem": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7"
+            ],
+            "Leaf ": [
+                "0, 2, 6, 8",
+                "7, 9, 9",
+                "4",
+                "7",
+                "7",
+                "5",
+                "0, 1, 3",
+                "0, 0, 2"
+            ]
+        },
+        "row_num": 9,
+        "column_num": 2,
+        "solution": "Find the row with stem 0. Count all the leaves greater than or equal to 1.\n\nCount all the leaves in the rows with stems 1 and 2.\n\nIn the row with stem 3, count all the leaves less than 7.\n\nYou counted 7 leaves, which are blue in the stem-and-leaf plots above. 7 people did at least 1 sit-up but fewer than 37 sit-ups.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 5,
+        "split": "test"
+    },
+    "11167": {
+        "question": "In a study on public parking, the director of transportation counted the number of cars in each of the city's parking lots. What is the smallest number of cars?",
+        "choices": null,
+        "answer": "26",
+        "unit": "cars",
+        "table_title": "Cars per parking lot",
+        "table": "Stem | Leaf \n2 | 6\n3 | 4, 6, 9\n4 | 9\n5 | 1, 5\n6 | 3, 6, 7, 8\n7 | \n8 | 2, 3\n9 | 0",
+        "table_for_pd": {
+            "Stem": [
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "Leaf ": [
+                "6",
+                "4, 6, 9",
+                "9",
+                "1, 5",
+                "3, 6, 7, 8",
+                "",
+                "2, 3",
+                "0"
+            ]
+        },
+        "row_num": 9,
+        "column_num": 2,
+        "solution": "Look at the first row of the stem-and-leaf plot. The first row has the lowest stem. The stem for the first row is 2.\n\nNow find the lowest leaf in the first row. The lowest leaf is 6.\n\nThe smallest number of cars has a stem of 2 and a leaf of 6. Write the stem first, then the leaf: 26.\n\nThe smallest number of cars is 26 cars.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 7,
+        "split": "test"
+    },
+    "31878": {
+        "question": "The bird watcher counted the number of birds in each flock that passed overhead. How many flocks had at least 17 birds but fewer than 33 birds?",
+        "choices": null,
+        "answer": "4",
+        "unit": "flocks",
+        "table_title": "Birds per flock",
+        "table": "Stem | Leaf \n1 | 2, 3\n2 | 0, 1, 4, 7\n3 | 5, 8, 8, 9\n4 | 4, 9\n5 | 0, 1, 2, 9, 9\n6 | 3, 4, 5, 6, 9\n7 | 1, 7",
+        "table_for_pd": {
+            "Stem": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7"
+            ],
+            "Leaf ": [
+                "2, 3",
+                "0, 1, 4, 7",
+                "5, 8, 8, 9",
+                "4, 9",
+                "0, 1, 2, 9, 9",
+                "3, 4, 5, 6, 9",
+                "1, 7"
+            ]
+        },
+        "row_num": 8,
+        "column_num": 2,
+        "solution": "Find the row with stem 1. Count all the leaves greater than or equal to 7.\n\nCount all the leaves in the row with stem 2.\n\nIn the row with stem 3, count all the leaves less than 3.\n\nYou counted 4 leaves, which are blue in the stem-and-leaf plots above. 4 flocks had at least 17 birds but fewer than 33 birds.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 5,
+        "split": "test"
+    },
+    "30262": {
+        "question": "Use the data to answer the question below. Is the following statement about our solar system true or false? Earth's volume is more than ten times as great as Mars's volume.",
+        "choices": [
+            "true",
+            "false"
+        ],
+        "answer": "false",
+        "unit": null,
+        "table_title": "Planet Volume (km3) Primary composition",
+        "table": "Mercury | 6.08 x | 1010 rock\nVenus | 9.28 x | 1011 rock\nEarth | 1.08 x | 1012 rock\nMars | 1.63 x | 1011 rock\nJupiter | 1.43 x | 1015 gas\nSaturn | 8.27 x | 1014 gas\nUranus | 6.83 x | 1013 ice\nNeptune | 6.25 x | 1013 ice",
+        "table_for_pd": {
+            "Column 1": [
+                "Mercury",
+                "Venus",
+                "Earth",
+                "Mars",
+                "Jupiter",
+                "Saturn",
+                "Uranus",
+                "Neptune"
+            ],
+            "Column 2": [
+                "6.08 x",
+                "9.28 x",
+                "1.08 x",
+                "1.63 x",
+                "1.43 x",
+                "8.27 x",
+                "6.83 x",
+                "6.25 x"
+            ],
+            "Column 3": [
+                "1010 rock",
+                "1011 rock",
+                "1012 rock",
+                "1011 rock",
+                "1015 gas",
+                "1014 gas",
+                "1013 ice",
+                "1013 ice"
+            ]
+        },
+        "row_num": 8,
+        "column_num": 3,
+        "solution": "To determine if this statement is true, calculate the value of ten times the volume of Mars.\n\n1.63 x10^11 · 10^1\n = 1.63 x10^12 km^3\n\nThen compare the result to the volume of Earth. The volume of Earth is 1.08 x10^12 km^3, which is less than 1.63 x10^12 km^3. So, Earth's volume is less than ten times as great as Mars's volume.",
+        "ques_type": "multi_choice",
+        "ans_type": "boolean_text",
+        "grade": 8,
+        "split": "test"
+    },
+    "18582": {
+        "question": "Nicholas went on a vacation to an amusement park and counted how many rides he went on each day. What is the median of the numbers?",
+        "choices": null,
+        "answer": "7",
+        "unit": null,
+        "table_title": "Amusement park rides",
+        "table": "Day | Number of rides\nMonday | 9\nTuesday | 6\nWednesday | 8\nThursday | 7\nFriday | 5\nSaturday | 6\nSunday | 8",
+        "table_for_pd": {
+            "Day": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "Number of rides": [
+                "9",
+                "6",
+                "8",
+                "7",
+                "5",
+                "6",
+                "8"
+            ]
+        },
+        "row_num": 8,
+        "column_num": 2,
+        "solution": "Read the numbers from the table.\n\n9, 6, 8, 7, 5, 6, 8\n\nFirst, arrange the numbers from least to greatest:\n\n5, 6, 6, 7, 8, 8, 9\n\nNow find the number in the middle.\n\n5, 6, 6, 7, 8, 8, 9\n\nThe number in the middle is 7.\n\nThe median is 7.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 7,
+        "split": "test"
+    },
+    "24440": {
+        "question": "While doing a project for P. E. class, Nora researched the number of athletes competing in an international sporting event. What is the smallest number of athletes?",
+        "choices": null,
+        "answer": "25",
+        "unit": "athletes",
+        "table_title": "Athletes per country",
+        "table": "Stem | Leaf \n2 | 5, 5, 8\n3 | 3, 4, 9\n4 | 0, 2, 3, 4, 7\n5 | \n6 | 2, 2, 5\n7 | \n8 | 0, 1, 6, 8",
+        "table_for_pd": {
+            "Stem": [
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "Leaf ": [
+                "5, 5, 8",
+                "3, 4, 9",
+                "0, 2, 3, 4, 7",
+                "",
+                "2, 2, 5",
+                "",
+                "0, 1, 6, 8"
+            ]
+        },
+        "row_num": 8,
+        "column_num": 2,
+        "solution": "Look at the first row of the stem-and-leaf plot. The first row has the lowest stem. The stem for the first row is 2.\n\nNow find the lowest leaf in the first row. The lowest leaf is 5.\n\nThe smallest number of athletes has a stem of 2 and a leaf of 5. Write the stem first, then the leaf: 25.\n\nThe smallest number of athletes is 25 athletes.",
+        "ques_type": "free_text",
+        "ans_type": "integer_number",
+        "grade": 4,
+        "split": "test"
+    }
+}
