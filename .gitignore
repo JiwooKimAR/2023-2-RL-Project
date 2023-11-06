@@ -1,3 +1,5 @@
-promptpg/checkpoints
+checkpoints/
+promptpg/
+results/
 
 *__pycache__
